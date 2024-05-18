@@ -10,6 +10,7 @@ import com.example.prueba.repositorio.UsuarioRepository;
 public class UsuarioService {
     @Autowired
     private UsuarioRepository usuarioRepository;
+    
     public void crearUsuario(String tipo_documento, Integer numero_documento, String nombre, String direccion_fisica, String direccion_digital, int telefono, int codigo_postal, String tipo_usuario, String nacionalidad) {
         Usuario usuario = new Usuario();
         usuario.setTipoDocumento(tipo_documento);

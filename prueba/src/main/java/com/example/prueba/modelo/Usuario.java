@@ -1,5 +1,6 @@
 package com.example.prueba.modelo;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -8,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection="usuario")
 public class Usuario {
     @Id
-    private String id;
+    private ObjectId id;
     private String tipoDocumento;
     private int numeroDocumento;
     private String nombre;
@@ -21,9 +22,8 @@ public class Usuario {
 
     public Usuario() {}
 
-    public Usuario(String id, String tipoDocumento, int numeroDocumento, String nombre, String direccionFisica,
+    public Usuario(String tipoDocumento, int numeroDocumento, String nombre, String direccionFisica,
             String direccionDigital, int telefono, int codigoPostal, String tipoUsuario, String nacionalidad) {
-        this.id = id;
         this.tipoDocumento = tipoDocumento;
         this.numeroDocumento = numeroDocumento;
         this.nombre = nombre;
@@ -34,10 +34,10 @@ public class Usuario {
         this.tipoUsuario = tipoUsuario;
         this.nacionalidad = nacionalidad;
     }
-    public String getId() {
+    public ObjectId getId() {
         return id;
     }
-    public void setId(String id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
     public String getTipoDocumento() {

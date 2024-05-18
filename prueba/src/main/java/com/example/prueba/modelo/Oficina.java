@@ -1,5 +1,6 @@
 package com.example.prueba.modelo;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -11,11 +12,11 @@ public class Oficina {
     private String nombre;
     private String direccion;
     private int numeroPuntosDisponibles;
-    private String idGerente;
+    private ObjectId idGerente;
 
     public Oficina(){}
 
-    public Oficina(String id,String nombre,String direccion,int numeroPuntosDisponibles, String idGerente){
+    public Oficina(String id,String nombre,String direccion,int numeroPuntosDisponibles, ObjectId idGerente){
         this.id=id;
         this.nombre=nombre;
         this.direccion=direccion;
@@ -41,10 +42,10 @@ public class Oficina {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    public String getIdGerente() {
+    public ObjectId getIdGerente() {
         return idGerente;
     }
-    public void setIdGerente(String idGerente) {
+    public void setIdGerente(ObjectId idGerente) {
         this.idGerente = idGerente;
     }
     public int getNumeroPuntosDisponibles() {

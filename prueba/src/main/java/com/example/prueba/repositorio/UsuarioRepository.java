@@ -2,6 +2,7 @@ package com.example.prueba.repositorio;
 
 import java.util.List;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.example.prueba.modelo.Usuario;
 
 @Repository
-public interface UsuarioRepository extends MongoRepository<Usuario, String>{
+public interface UsuarioRepository extends MongoRepository<Usuario, ObjectId>{
     
     @Query("{_id: ?0}")
     Usuario buscarporId(String id);

@@ -1,13 +1,19 @@
 package com.example.prueba;
 
+import java.util.List;
+
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.prueba.modelo.Oficina;
+import com.example.prueba.modelo.Usuario;
+import com.example.prueba.repositorio.OficinaRepository;
 import com.example.prueba.repositorio.UsuarioRepository;
-import com.example.prueba.service.UsuarioService;
+import com.example.prueba.service.OficinaService;
 
 
 @SpringBootApplication
@@ -18,7 +24,10 @@ public class PruebaApplication implements CommandLineRunner {
     private UsuarioRepository usuarioRepository;
 
     @Autowired
-    private UsuarioService usuarioService;
+    private OficinaRepository oficinaRepository;
+
+    @Autowired
+    private OficinaService oficinaService;
 
     public static void main(String[] args) {
         SpringApplication.run(PruebaApplication.class, args);
@@ -33,15 +42,26 @@ public class PruebaApplication implements CommandLineRunner {
         System.out.println("holaaaaaa");
         System.out.println("----------------------");
 
-/*
-        usuarioService.crearUsuario("CC",1010034589,"Pepe Rios","carrera 11#12","ppe@gmail.com",3522596,1212,"CAJERO","colombiano");
-        
+
+        /*usuarioService.crearUsuario("CC",1010034589,"Pepe Rios","carrera 11#12","ppe@gmail.com",3522596,1212,"CAJERO","colombiano");
+        */
+        ObjectId idUsuario = new ObjectId();
         List<Usuario> usuarios = usuarioRepository.darUsuarios();
 		for (Usuario u:usuarios){
-            System.out.println(u.getNombre());
+            System.out.println(u.getId());
+            idUsuario = u.getId();
         }
-		System.out.println("hola");
- */
+        System.out.println("se va a insertar");
+        oficinaService.crearOficina("oficinas centrales norte", "carrera 12#43-54", 4, idUsuario);
+        System.err.println("se inserto");
+        List<Oficina> oficinas = oficinaRepository.buscarOficinas();
+        for(Oficina o: oficinas){
+            System.err.println(o.getNombre());
+        }
+/*
+        
+		System.out.println("hola");*/
+
 /*
 		List<Usuario> usuarios = usuarioRepository.porTipoUsuario("CLIENTE");
 
