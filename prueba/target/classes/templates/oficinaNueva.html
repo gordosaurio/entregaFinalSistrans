@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Crear Servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href='@{/}'>
+            <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" th:href="@{/oficina}" style="color: #78288c;">Oficinas</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+
+    <h1 style="color: #78288c;">Estas Creando Una Oficina:</h1>
+    <br>
+
+    <br>
+    <div class="center-text">
+    <form th:action="@{/oficina/new/save}" method="post">
+        <div class="form-group">
+            <label for="nombre" style="color: #78288c;">Nombre:</label>
+            <input type="text" class="form-control" style="color: #78288c;" id="nombre" placeholder="nombre" name="nombre" />
+        </div>
+        <div class="form-group">
+            <label for="direccion" style="color: #78288c;">Direccion:</label>
+            <input type="text" class="form-control" style="color: #78288c;" id="direccion" placeholder="direccion" name="direccion" />
+        </div>
+        <div class="form-group">
+            <label for="numeroPuntosDisponibles" style="color: #78288c;">Numero De Puntos Disponibles:</label>
+            <input type="number" class="form-control" style="color: #78288c;" id="numeroPuntosDisponibles" placeholder="numeroPuntosDisponibles" name="numeroPuntosDisponibles" />
+        </div>
+
+        <div class="form-group">
+        <label for="gerente" style="color: #78288c;">Gerente:</label>
+        <select class="form-control" id="idGerente" name="idGerente" required>
+            <option value="">Selecciona un gerente</option>
+            <th:block th:each="gerente : ${gerentes}">
+                <option th:value="${gerente.id}" th:text="${gerente.nombre}"></option>
+            </th:block>
+        </select><br>
+
+        <button type="submit" class="btn" style="background-color: #78288c; color: white;">Guardar</button>
+        <a th:href="@{/oficina}" class="btn" style="background-color: #ee0e0e; color: white;">Cancelar</a>
+    </form>
+    </div>
+</body>
+
+</html>

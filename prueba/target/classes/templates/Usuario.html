@@ -12,23 +12,15 @@
   
   <nav class="navbar navbar-expand-lg bg-body-tertiary" >
     <div class="container-fluid">
-      <a class="navbar-brand" th:href='@{/}'>
+      <a class="navbar-brand" th:href='@{/usuario}'>
         <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
       </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" th:href="@{/oficina}" style="color: #78288c;">Oficinas</a>
-          </li>
-        </ul>
-      </div>
     </div>
   </nav>
 
   <h1 style="color: #78288c;">Listado de Usuarios:</h1>
   </div>
   <br />
-
   <div class="card-columns">
     <div th:each="usuario : ${usuario}" th:object="${usuario}">
       <div class="card" style="background-color: #78288c;">
@@ -38,7 +30,7 @@
         <div class="card-body">
           <p class="card-text">
 
-          <span class="font-weight-bold" style="color: #c7cac8;">Id:</span> <span th:text="${usuario.idUsuario}" style="color: #c7cac8;"></span><br>
+          <span class="font-weight-bold" style="color: #c7cac8;">Id:</span> <span th:text="${usuario.id}" style="color: #c7cac8;"></span><br>
           <span class="font-weight-bold" style="color: #c7cac8;">Numero De Documento:</span> <span th:text="${usuario.numeroDocumento}" style="color: #c7cac8;"></span><br>
           <span class="font-weight-bold" style="color: #c7cac8;">Nacionalidad:</span> <span th:text="${usuario.nacionalidad}" style="color: #c7cac8;"></span>
         </div>
@@ -49,5 +41,6 @@
       <a th:href="@{/usuario/new}" class="btn btn" style="background-color: #78288c ; color: white;" >Añadir Usuario</a>
       <a th:href="@{/}" class="btn " style="background-color: #ee0e0e; color: white;" >Volver Atrás</a>
     </div>
+
 </body>
 </html>

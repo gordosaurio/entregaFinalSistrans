@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Crear Servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href='@{/}'>
+            <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
+            </a>
+        </div>
+    </nav>
+
+    <h1 style="color: #78288c;">Estas Creando Un Usuario:</h1>
+    <br>
+
+    <div class="center-text">
+        <form th:action="@{/usuario/new/save}" method="post">
+            <div th:if="${errorCreacionUsuario}" class="alert alert-danger" role="alert">
+                <p th:text="${errorCreacionUsuario}"></p>
+            </div>
+            <div class="input-group mb-3 row">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" style="color: #78288c;" for="inputGroupSelect01">Tipo Documento</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01" name="tipoDocumento" >
+                    <option style="color: #78288c;" value="" selected>Escoge el tipo de Documento que quieras crear</option>
+                    <th:block th:each="tipoDocumento : ${tipoDocumento}" style="color: #78288c;">
+                        <option th:value="${tipoDocumento}" th:text="${tipoDocumento}" style="color: #78288c;"></option>
+                    </th:block>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="numeroDocumento" style="color: #78288c;">Numero De Documento:</label>
+                <input type="number" class="form-control" style="color: #78288c;" id="numeroDocumento" placeholder="numeroDocumento" name="numeroDocumento" />
+            </div>
+            <div class="form-group">
+                <label for="nombre" style="color: #78288c;">Nombre:</label>
+                <input type="text" class="form-control" style="color: #78288c;" id="nombre" placeholder="Nombre" name="nombre" />
+            </div>
+            <div class="form-group">
+                <label for="nacionalidad" style="color: #78288c;">Nacionalidad:</label>
+                <input type="text" class="form-control" style="color: #78288c;" id="nacionalidad" placeholder="nacionalidad" name="nacionalidad" />
+            </div>
+            <div class="form-group">
+                <label for="direccionFisica" style="color: #78288c;">Direccion Fisica:</label>
+                <input type="text" class="form-control" style="color: #78288c;" id="direccionFisica" placeholder="direccionFisica" name="direccionFisica" />
+            </div>
+            <div class="form-group">
+                <label for="direccionDigital" style="color: #78288c;">Direccion Digital:</label>
+                <input type="text" class="form-control" style="color: #78288c;" id="direccionDigital" placeholder="direccionDigital" name="direccionDigital" />
+            </div>
+            <div class="form-group">
+                <label for="telefono" style="color: #78288c;">Telefono:</label>
+                <input type="number" class="form-control" style="color: #78288c;" id="telefono" placeholder="telefono" name="telefono" />
+            </div>
+            <div class="form-group">
+                <label for="codigoPostal" style="color: #78288c;">Codigo Postal:</label>
+                <input type="number" class="form-control" style="color: #78288c;" id="codigoPostal" placeholder="codigoPostal" name="codigoPostal" />
+            </div>
+            <div class="input-group mb-3 row">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" style="color: #78288c;" for="inputGroupSelect01">Tipo Usuario</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01" name="tipoUsuario">
+                    <option value="" selected style="color: #78288c;">Escoge el tipo de usuario que quieras crear</option>
+                    <th:block th:each="tipoUsuario : ${tipoUsuario}" style="color: #78288c;">
+                        <option th:value="${tipoUsuario}" th:text="${tipoUsuario}" style="color: #78288c;"></option>
+                    </th:block>
+                </select>
+            </div>
+            
+            <button type="submit" class="btn" style="background-color: #78288c; color: white;">Guardar</button>
+            <a th:href="@{/usuario}" class="btn" style="background-color: #ee0e0e; color: white;">Cancelar</a>
+        </form>
+    </div>
+    
+</body>
+
+</html>

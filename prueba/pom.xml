@@ -54,6 +54,10 @@
 			<optional>true</optional>
 		</dependency>
 	</dependencies>
+	<dependency>
+    <groupId>org.springframework.boot</groupId>
+   		<artifactId>spring-boot-starter-data-mongodb</artifactId>
+	</dependency>
 
 	<build>
 		<plugins>
@@ -65,4 +69,4 @@
 		</plugins>
 	</build>
 
-</project>
+	</project>

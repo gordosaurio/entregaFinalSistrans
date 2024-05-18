@@ -58,7 +58,7 @@ public class PruebaApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         
-
+/* 
         System.out.println("----------------------");
         System.out.println("holaaaaaa");
         System.out.println("----------------------");
@@ -75,7 +75,7 @@ public class PruebaApplication implements CommandLineRunner {
         for(Cuenta c:cuentas){
             idCuenta = c.getId();
             System.out.println(c.getSaldo());
-        }
+        } */
 
         /*
         List<Cuenta> cuentas = cuentaRepository.buscarCuentas();

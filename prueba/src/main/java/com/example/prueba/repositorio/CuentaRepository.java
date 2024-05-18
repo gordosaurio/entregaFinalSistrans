@@ -18,4 +18,6 @@ public interface CuentaRepository  extends MongoRepository<Cuenta, ObjectId>{
 
     @Query("{_id: ?0}")
     Cuenta buscarporId(ObjectId id);
+
+
 }

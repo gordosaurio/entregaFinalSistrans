@@ -96,4 +96,8 @@ public class Usuario {
         this.nacionalidad = nacionalidad;
     }
 
+    public String getIdString() {
+        return id.toHexString();
+    }
+
 }

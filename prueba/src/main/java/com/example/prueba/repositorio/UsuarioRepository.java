@@ -1,5 +1,7 @@
 package com.example.prueba.repositorio;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -21,7 +23,7 @@ public interface UsuarioRepository extends MongoRepository<Usuario, ObjectId>{
     @Query("{}")
     List<Usuario> darUsuarios();
 
-    Usuario save(Usuario usuario);
+
 
 
 }
