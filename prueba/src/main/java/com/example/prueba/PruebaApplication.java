@@ -1,6 +1,5 @@
 package com.example.prueba;
 
-import java.util.Date;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -10,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.prueba.modelo.Usuario;
+import com.example.prueba.modelo.Cuenta;
 import com.example.prueba.repositorio.CuentaRepository;
 import com.example.prueba.repositorio.OficinaRepository;
 import com.example.prueba.repositorio.PuntoAtencionRepository;
@@ -63,18 +62,35 @@ public class PruebaApplication implements CommandLineRunner {
         System.out.println("----------------------");
         System.out.println("holaaaaaa");
         System.out.println("----------------------");
-        List<Usuario> usuarios = usuarioRepository.darUsuarios();
-        ObjectId idUsuario = new ObjectId();
-        String nombre = "no entro";
-        Date fecha = new Date();
-        Double saldo = 2500000d;
-        for(Usuario u:usuarios){
-            idUsuario = u.getId();
-            nombre = u.getNombre();
-        }
-        cuentaService.crearCuenta(idUsuario,"AHORROS","ACTIVA",fecha,saldo,fecha);
+        List<Cuenta> cuentas = cuentaRepository.buscarCuentas();
+        ObjectId idCuenta = new ObjectId();
         
+        for(Cuenta c:cuentas){
+            idCuenta = c.getId();
+            System.out.println(c.getSaldo());
+        }
+        System.out.println("!------------------------------------------------");
+        System.out.println("se actualizara el monto");
+        cuentaService.consignarCuenta(idCuenta,1000000d);
+        for(Cuenta c:cuentas){
+            idCuenta = c.getId();
+            System.out.println(c.getSaldo());
+        }
 
+        /*
+        List<Cuenta> cuentas = cuentaRepository.buscarCuentas();
+        ObjectId idCuenta = new ObjectId();
+        
+        for(Cuenta c:cuentas){
+            idCuenta = c.getId();
+            System.out.println(c.getEstadoCuenta());
+        }
+        cuentaService.cerrarCuenta(idCuenta);
+        System.out.println("----------------------");
+        System.out.println("ahora cambia el estado");
+        for(Cuenta c1:cuentas){
+            System.out.println(c1.getEstadoCuenta());
+        }
 
 /*
         ObjectId idOficina = new ObjectId();

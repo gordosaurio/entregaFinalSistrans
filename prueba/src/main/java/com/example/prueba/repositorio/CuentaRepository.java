@@ -15,4 +15,7 @@ public interface CuentaRepository  extends MongoRepository<Cuenta, ObjectId>{
     List<Cuenta> buscarCuentas();
 
     Cuenta save(Cuenta cuenta);
+
+    @Query("{_id: ?0}")
+    Cuenta buscarporId(ObjectId id);
 }

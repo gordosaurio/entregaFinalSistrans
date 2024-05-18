@@ -13,7 +13,7 @@ import com.example.prueba.modelo.Usuario;
 public interface UsuarioRepository extends MongoRepository<Usuario, ObjectId>{
     
     @Query("{_id: ?0}")
-    Usuario buscarporId(String id);
+    Usuario buscarporId(ObjectId id);
 
     @Query(value="{tipoUsuario:'?0'}", fields="{'nombre':1}")
     List<Usuario> porTipoUsuario(String tipoUsuario);
