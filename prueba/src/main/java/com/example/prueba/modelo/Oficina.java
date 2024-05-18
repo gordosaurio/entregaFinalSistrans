@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection="oficina")
 public class Oficina {
     @Id
-    private String id;
+    private ObjectId id;
     private String nombre;
     private String direccion;
     private int numeroPuntosDisponibles;
@@ -16,18 +16,17 @@ public class Oficina {
 
     public Oficina(){}
 
-    public Oficina(String id,String nombre,String direccion,int numeroPuntosDisponibles, ObjectId idGerente){
-        this.id=id;
+    public Oficina(String nombre,String direccion,int numeroPuntosDisponibles, ObjectId idGerente){
         this.nombre=nombre;
         this.direccion=direccion;
         this.numeroPuntosDisponibles=numeroPuntosDisponibles;
         this.idGerente=idGerente;
     }
 
-    public String getId() {
+    public ObjectId getId() {
         return id;
     }
-    public void setId(String id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
     public String getNombre() {

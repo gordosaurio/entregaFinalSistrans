@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Usuario {
     @Id
     private ObjectId id;
+    
     private String tipoDocumento;
     private int numeroDocumento;
     private String nombre;
