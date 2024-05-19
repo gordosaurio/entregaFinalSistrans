@@ -1,14 +1,21 @@
 package com.example.prueba.controller;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.expression.spel.ast.Selection;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,13 +32,17 @@ import com.example.prueba.service.CuentaService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
+import org.apache.commons.lang3.StringUtils;
+
 
 
 @Controller
 public class CuentaController {
 
-     public List<String> tipoCuenta = new ArrayList<>(Arrays.asList("AHORROS", "CORRIENTE", "AFC"));
-     public List<String> abrirEstado = new ArrayList<>(Arrays.asList("ACTIVA"));
+    public List<String> tipoCuenta = new ArrayList<>(Arrays.asList("AHORROS", "CORRIENTE", "AFC"));
+    public List<String> abrirEstado = new ArrayList<>(Arrays.asList("ACTIVA"));
+    public List<String> meses = new ArrayList<>(Arrays.asList("01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"));
+
 
     @Autowired
     private CuentaRepository cuentaRepository;
@@ -238,4 +249,87 @@ public class CuentaController {
 
 }
 
+@GetMapping("/cuenta/extractoCuenta/{idCuenta}")
+    public String extractosGeneral(Model model, @PathVariable("idCuenta") ObjectId idCuenta, @RequestParam(value = "mes", required = false) String mes) {
+        if(mes==null){
+            
+        }
+        else{
+            model.addAttribute("mesElegido", mes);
+        }
+        model.addAttribute("cuentas", cuentaRepository.buscarCuentas());
+        model.addAttribute("meses", meses);
+        model.addAttribute("idCuenta", idCuenta);
+
+        return "extractoCuenta";
+    
+
+}
+
+
+
+@PostMapping("/cuenta/extractoCuenta/{idCuenta}")
+public String extractosInfo(Model model, @PathVariable("idCuenta") ObjectId idCuenta, String mes) {
+    model.addAttribute("meses", meses);
+    if (idCuenta != null) {
+        String id = idCuenta.toString();
+        String filePath = "logs/cuentas.log";
+
+        model.addAttribute("res", "HOLAAA");
+        try {
+            // Buscar saldo del mes anterior
+            String saldoInicial = null;
+            String saldoFinal = null;
+            int indexMesActual = meses.indexOf(mes);
+            model.addAttribute("mesElegido", mes);
+            for (int i = indexMesActual - 1; i >= 0; i--) {
+                String mesAnterior = meses.get(i);
+                Collection<String> lineasSaldoInicial = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8)
+                        .filter(linea -> linea.contains(id) && linea.contains("Fecha: 2024-" + mesAnterior))
+                        .collect(Collectors.toList());
+                if (!lineasSaldoInicial.isEmpty()) {
+                    // Obtener el primer saldo encontrado
+                    String linea = lineasSaldoInicial.iterator().next();
+                    saldoInicial = linea.split(", ")[linea.split(", ").length - 2].split(": ")[1];
+                    break;
+                }
+            }
+
+            // Si no se encontró saldo del mes anterior, utilizar el primer saldo del mes actual
+            if (saldoInicial == null) {
+                Collection<String> lineasSaldoInicialMesActual = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8)
+                        .filter(linea -> linea.contains(id) && linea.contains("Fecha: 2024-" + mes))
+                        .collect(Collectors.toList());
+                if (!lineasSaldoInicialMesActual.isEmpty()) {
+                    String linea = lineasSaldoInicialMesActual.iterator().next();
+                    saldoInicial = linea.split(", ")[linea.split(", ").length - 2].split(": ")[1];
+                }
+            }
+
+            model.addAttribute("saldoInicial", saldoInicial);
+
+            // Buscar movimientos del mes actual
+            Collection<String> lineasCoincidentes = Files.lines(Paths.get(filePath), StandardCharsets.UTF_8)
+                    .filter(linea -> linea.contains(id) && linea.contains("Fecha: 2024-" + mes))
+                    .collect(Collectors.toList());
+
+            if (!lineasCoincidentes.isEmpty()) {
+                // Encontrar el saldo final
+                List<String> lineasCoincidentesList = new ArrayList<>(lineasCoincidentes);
+                String ultimaLinea = lineasCoincidentesList.get(lineasCoincidentesList.size() - 1);
+                saldoFinal = ultimaLinea.split(", ")[ultimaLinea.split(", ").length - 2].split(": ")[1];
+                
+                model.addAttribute("lineasCoincidentes", lineasCoincidentes);
+                model.addAttribute("saldoFinal", saldoFinal);
+            } else {
+                model.addAttribute("lineasCoincidentes", "No se encontraron movimientos para la cuenta");
+            }
+        } catch (IOException e) {
+            return "extractoCuenta";
+        }
+    }
+    return "extractoCuenta";
+}
+
+    
 }

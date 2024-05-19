@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Extracto Cuenta</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 style="color: #78288c;">Movimientos de Cuenta</h1>
+
+        <form id="extractoForm" action="#" method="post" th:action="@{'/cuenta/extractoCuenta/' + ${idCuenta}}">
+            <div class="form-group">
+                <label for="cuenta" style="color: #78288c;">Cuenta:</label><br>
+                <span th:text="${idCuenta}" style="color: #78288c;"></span><br>
+                <label for="mes" style="color: #78288c;">Mes</label>
+                <select class="form-control" id="mes" name="mes" onchange="document.getElementById('extractoForm').submit()">
+                    <option value="">Seleccionar Mes: </option>
+                    <th:block th:each="mesItem : ${meses}">
+                        <option th:value="${mesItem}" th:text="${mesItem}" th:selected="${mesItem == selectedMonth}"></option>
+                    </th:block>
+                </select><br>
+            </div>
+        </form>
+
+        <div class="container">
+            <div class="card mb-4" th:if="${saldoInicial != null}">
+                <div class="card-body">
+                    
+                    <h5 class="card-title" th:text="${saldoInicial}" style="color: #78288c;"></h5>
+                    <p class="card-text">Saldo Inicial: </p>
+                </div>
+            </div>
+        
+            <div class="card mb-4" th:if="${mesElegido != null}">
+                <div class="card-body">
+                    <h5 class="card-title" th:text="${mesElegido}" style="color: #78288c;"></h5>
+                    <p class="card-text">Mes Seleccionado</p>
+                </div>
+            </div>
+
+            <div class="card mb-4" th:if="${saldoFinal != null}">
+                <div class="card-body">
+                    <h5 class="card-title" th:text="${saldoFinal}" style="color: #78288c;"></h5>
+                    <p class="card-text">Saldo fin de mes</p>
+                </div>
+            </div>
+        </div>
+
+    <div th:if="${lineasCoincidentes != null}">
+        <h4 style="color: #78288c;">Movimientos encontrados para la cuenta:</h4>
+        <ul>
+            <th:block th:each="linea : ${lineasCoincidentes}">
+                <div class="card" style="background-color: #78288c;">
+                    <div class="card-body">
+                        <th:block th:each="parte : ${#strings.arraySplit(linea, ',')}">
+                            <span th:text="${parte}" style="color: #c7cac8;"></span><br>
+                        </th:block>
+                    </div>
+                </div>
+            </th:block>
+        </ul>
+    </div>
+    <div class="text-center">
+        <a th:href="@{/}" class="btn" style="background-color: #ee0e0e; color: white;">Volver Atrás</a>
+    </div>
+
+</body>
+
+</html>
