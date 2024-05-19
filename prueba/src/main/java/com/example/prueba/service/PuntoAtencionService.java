@@ -26,4 +26,9 @@ public class PuntoAtencionService {
     public void eliminarPuntoAtencion(ObjectId id){
         puntoAtencionRepository.deleteById(id);
     }
+
+    public void editarPuntoAtencion(ObjectId puntoAtencionId, String nombre,String tipoPuntoAtencion,String locacion, String horarioApertura, String horarioCierre,ObjectId idOficina){ 
+        puntoAtencionRepository.editarPuntoAtencion(puntoAtencionId,nombre, tipoPuntoAtencion, locacion,  horarioApertura,  horarioCierre, idOficina);
+    }
+
 }

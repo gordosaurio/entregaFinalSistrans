@@ -20,4 +20,6 @@ public class OficinaService {
         oficina.setIdGerente(idGerente);
         oficinaRepository.save(oficina);
     }
+
+    
 }

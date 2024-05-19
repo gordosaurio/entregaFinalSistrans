@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lista de Punto De Atencion</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+  <script th:src="@{/js/jquery.min.js}"></script>
+  <script th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+    <div class="container-fluid">
+      <a class="navbar-brand" th:href='@{/}'>
+        <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
+      </a>
+
+    </div>
+  </nav>
+
+    <h1 style="color: #78288c;">Listado de Puntos De Atencion:</h1>
+    <br>
+
+    <div class="card-columns">
+        <div th:each="puntoAtencion : ${puntosAtencion}">
+            <div class="card" style="background-color: #78288c;">
+                <div class="card-header">
+                    <h5 class="card-title" th:text="${puntoAtencion.nombre}" style="color: #c7cac8;"></h5>
+                </div>
+                <div class="card-body">
+                  <span class="font-weight-bold" style="color: #c7cac8;">Id:</span> <span th:text="${puntoAtencion.id}" style="color: #c7cac8;"></span><br>
+                  <span class="font-weight-bold" style="color: #c7cac8;">Locacion:</span> <span th:text="${puntoAtencion.locacion}" style="color: #c7cac8;"></span><br>
+                  <span class="font-weight-bold" style="color: #c7cac8;">Horario De Apertura:</span> <span th:text="${puntoAtencion.horarioApertura}" style="color: #c7cac8;"></span><br>
+                  <span class="font-weight-bold" style="color: #c7cac8;">Horario De Cierre:</span> <span th:text="${puntoAtencion.horarioCierre}" style="color: #c7cac8;"></span><br>
+                </div>
+                
+                <div class="card-footer">
+                  <a th:href="@{'/puntoAtencion/editar/' +${puntoAtencion.id}}" class="btn" style="background-color: #b659cd; color: white;">Editar</a>
+                  <a th:href="@{'/puntosAtencion/borrar/' + ${puntoAtencion.id}}" class="btn" style="background-color: #ee0e0e; color: white;" onclick="return confirm('¿Estás seguro de borrar este punto de Atencion ?')">Borrar</a>
+                </div>
+            </div>      
+        </div>
+    </div>
+    <div class="text-center">
+        <a th:href="@{/puntosAtencion/new}" class="btn btn" style="background-color: #78288c ; color: white;" >Añadir Punto De Atencion</a>
+        <a th:href="@{/}" class="btn " style="background-color: #ee0e0e; color: white;" >Volver Atrás</a>
+    </div>
+
+</body>
+</html>

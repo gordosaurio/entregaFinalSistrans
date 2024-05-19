@@ -24,4 +24,6 @@ public class UsuarioService {
         usuario.setNacionalidad(nacionalidad);
         usuarioRepository.save(usuario);
     }
+
+    
 }
