@@ -42,7 +42,7 @@ public class CuentaService {
 
     public Cuenta desactivarCuenta(ObjectId id) {
         Cuenta cuenta = cuentaRepository.buscarporId(id);
-        if (cuenta != null) {
+        if (cuenta != null )  {
             cuenta.setEstadoCuenta("DESACTIVADA");
             cuentaRepository.save(cuenta);
         }

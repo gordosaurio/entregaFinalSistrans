@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuentas</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <script th:src="@{/js/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <style>
+        /* Estilo para el popup */
+        .form-popup {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        /* Estilo para el contenido del popup */
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Estilos para los botones dentro del popup */
+        .form-container button {
+            margin-top: 10px;
+        }
+
+        /* Estilo para el botón Cancelar */
+        .cancel {
+            background-color: #ccc;
+        }
+
+        /* Estilo para el botón Consignar */
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href="@{/}">
+                <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
+            </a>
+        </div>
+    </nav>
+
+    <div th:if="${param.mensaje}" class="alert alert-warning" role="alert">
+        <h1 th:text="${param.mensaje}"></h1>
+    </div>
+
+    <h1 style="color: #78288c;">Listado de Cuentas:</h1>
+    <br>
+    <div class="card-columns">
+        <div th:each="cuenta : ${cuentas}">
+            <div class="card" style="background-color: #78288c;">
+                <div class="card-header">
+                    <h5 class="card-title" style="color: #c7cac8;">Id cuenta: <span th:text="${cuenta.id}"></span></h5>
+                </div>
+                <div class="card-body">
+                    <span th:with="idUsuario=${cuenta.idUsuario}">
+                        <span style="color: #c7cac8;">Dueño: </span>
+                        <span th:utext="${#lists.isEmpty(usuarios) ? 'Usuario no encontrado' : ''}" style="color: #c7cac8;"></span>
+                        <span th:each="usuario : ${usuarios}" th:if="${usuario.id == idUsuario}" th:text="${usuario.nombre}" style="color: #c7cac8;"></span>
+                    </span><br/>
+                    <span class="font-weight-bold" style="color: #c7cac8;">Tipo Cuenta:</span> <span th:text="${cuenta.tipoCuenta}" style="color: #c7cac8;"></span><br>
+                    <span class="font-weight-bold" style="color: #c7cac8;">Estado Cuenta:</span> <span th:text="${cuenta.estadoCuenta}" style="color: #c7cac8;"></span><br>
+                    <span class="font-weight-bold" style="color: #c7cac8;">Saldo:</span> <span th:text="${cuenta.saldo}" style="color: #c7cac8;"></span><br>
+                    <span class="font-weight-bold" style="color: #c7cac8;">Fecha última transacción:</span> 
+                    <span th:text="${#dates.format(cuenta.fechaUltimaTransaccion, 'MM-dd-yyyy')}" style="color: #c7cac8;"></span><br>
+                    <span class="font-weight-bold" style="color: #c7cac8;">Fecha creación:</span> 
+                    <span th:text="${#dates.format(cuenta.fechaCreacion, 'MM-dd-yyyy')}" style="color: #c7cac8;"></span><br>
+                </div>
+
+                <div class="card-footer">
+                    <a th:href="@{/cuenta/desactivar/{idCuenta}(idCuenta=${cuenta.id})}" class="btn" style="background-color: #b659cd; color: white;" onclick="return confirm('¿Estás seguro de desactivar esta cuenta?')">Desactivar</a>
+                    <a th:href="@{/cuenta/cerrar/{idCuenta}(idCuenta=${cuenta.id})}" class="btn" style="background-color: #b659cd ; color: white;" onclick="return confirm('¿Estás seguro de cerrar esta cuenta?')">Cerrar</a>
+                    <button class="btn" style="background-color: #b659cd ; color: white;" onclick="openForm('${cuenta.id}')">Consignar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div id="myForm" class="form-popup">
+          <form class="form-container">
+              <h1>Consignar</h1>
+              <input type="hidden" id="idCuenta" name="idCuenta">
+              <label for="monto">Monto:</label>
+              <input type="number" id="monto" name="monto" required>
+              <button type="button" class="btn" onclick="consignar()">Consignar</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Cancelar</button>
+          </form>
+      </div>
+  
+      <div class="text-center">
+          <a class="nav-link active" aria-current="page" th:href="@{/cuenta/new}" style="color: #78288c;">Crear Cuenta</a>
+          <a th:href="@{/}" class="btn" style="background-color: #ee0e0e; color: white;">Volver Atrás</a>
+      </div>
+  
+      <script>
+          function openForm(idCuenta) {
+              document.getElementById("myForm").style.display = "block";
+              document.getElementById("idCuenta").value = idCuenta;
+          }
+  
+          function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+          }
+  
+          function consignar() {
+              var monto = document.getElementById("monto").value;
+              var idCuenta = document.getElementById("idCuenta").value;
+              window.location.href = '/cuenta/consignar/' + idCuenta + '/' + monto;
+              closeForm();
+    }
+
+    </script>
+
+</body>
+</html>

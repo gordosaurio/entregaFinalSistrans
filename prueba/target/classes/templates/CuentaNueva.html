@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Crear Servicio</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href='@{/}'>
+            <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
+            </a>
+        </div>
+    </nav>
+
+    <h1 style="color: #78288c;">Estas Creando Una Cuenta:</h1>
+    <br>
+
+    <br>
+    <div class="center-text">
+    <form th:action="@{/cuenta/new/save}" method="post">
+        <div class="form-group">
+
+            <label for="idUsuario" style="color: #78288c;">Usuario:</label>
+            <select class="form-control" id="idUsuario" name="idUsuario" required>
+                <th:block th:each="tipos : ${usuarios}" >
+                    <option th:value="${tipos.id}" th:text="${tipos.nombre}" ></option>
+                </th:block>
+            </select><br>
+
+
+
+            <label for="tipoCuenta" style="color: #78288c;">Tipo cuenta:</label>
+            <select class="form-control" id="tipoCuenta" name="tipoCuenta" required>
+                <th:block th:each="tipos : ${tipoCuenta}" >
+                    <option th:value="${tipos}" th:text="${tipos}" ></option>
+                </th:block>
+            </select><br>
+
+            <label for="estadoCuenta" style="color: #78288c;">Estado cuenta:</label>
+            <select class="form-control" id="estadoCuenta" name="estadoCuenta" required>
+                <th:block th:each="tipos : ${estadoCuenta}" >
+                    <option th:value="${tipos}" th:text="${tipos}" ></option>
+                </th:block>
+            </select><br>
+
+            <div class="form-group">
+                <label for="fechaUltimaTransaccion" style="color: #78288c;">Fecha Ultima Transaccion:</label>
+                <input type="date" class="form-control" style="color: #78288c;" id="fechaUltimaTransaccion" name="fechaUltimaTransaccion" value="fechaUltimaTransaccion" />
+            </div>
+
+        <div class="form-group">
+            <label for="saldo" style="color: #78288c;">Saldo:</label>
+            <input type="text" class="form-control" style="color: #78288c;" id="saldo" placeholder="saldo" name="saldo" />
+        </div>
+
+        <div class="form-group">
+            <label for="fechaCreacion" style="color: #78288c;">Fecha de creacion:</label>
+            <input type="date" class="form-control" style="color: #78288c;" id="fechaCreacion" name="fechaCreacion" value="fechaCreacion"/>
+        </div>
+        
+        <button type="submit" class="btn" style="background-color: #78288c; color: white;">Guardar</button>
+        <a th:href="@{/cuenta}" class="btn" style="background-color: #ee0e0e; color: white;">Cancelar</a>
+    </form>
+    </div>
+</body>
+
+</html>
