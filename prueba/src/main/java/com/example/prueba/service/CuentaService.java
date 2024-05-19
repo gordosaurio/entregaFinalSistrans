@@ -64,4 +64,40 @@ public class CuentaService {
         return cuenta;
     }
 
+    public Cuenta retirarCuenta(ObjectId id,Double monto) {
+        Cuenta cuenta = cuentaRepository.buscarporId(id);
+        Double saldo= 0d;
+        Double montoFinal = 0d;
+        if (cuenta != null) {
+            saldo = cuenta.getSaldo();
+            montoFinal = saldo - monto;
+            cuenta.setSaldo(montoFinal);
+            logger.info("Fecha: {}, Número de cuenta: {}, Monto: {}, Tipo de operación: consignacion",
+                LocalDate.now(), cuenta.getId(), monto);
+            cuentaRepository.save(cuenta);
+        }
+        return cuenta;
+    }
+
+    public Cuenta transaferirCuenta(ObjectId id,ObjectId cuentaDestino, Double monto) {
+        Cuenta cuenta = cuentaRepository.buscarporId(id);
+        Cuenta cuentaD = cuentaRepository.buscarporId(cuentaDestino);
+        Double saldoO= 0d;
+        Double saldoD= 0d;
+        Double montoFinalO = 0d;
+        Double montoFinalD = 0d;
+        if (cuenta != null && cuentaD !=null) {
+            saldoO = cuenta.getSaldo();
+            saldoD = cuentaD.getSaldo();
+            montoFinalO = saldoO - monto;
+            montoFinalD = saldoD + monto;
+            cuenta.setSaldo(montoFinalO);
+            cuentaD.setSaldo(montoFinalD);
+            cuentaRepository.save(cuenta);
+            cuentaRepository.save(cuentaD);
+        }
+        return cuenta;
+    }
+
+
 }

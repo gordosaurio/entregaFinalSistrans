@@ -1,0 +1,25 @@
+<configuration>
+    <!-- Appenders -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CUENTAS_LOG" class="ch.qos.logback.core.FileAppender">
+        <file>logs/cuentas.log</file> 
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Loggers específicos -->
+    <logger name="com.example.prueba.controller.CuentaController" level="DEBUG" additivity="false">
+        <appender-ref ref="CUENTAS_LOG"/>
+    </logger>
+
+    <!-- Logger raíz -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

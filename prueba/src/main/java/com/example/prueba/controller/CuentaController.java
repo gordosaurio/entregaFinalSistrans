@@ -1,7 +1,9 @@
 package com.example.prueba.controller;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
@@ -10,18 +12,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.prueba.modelo.Cuenta;
 import com.example.prueba.repositorio.CuentaRepository;
-import com.example.prueba.repositorio.OficinaRepository;
 import com.example.prueba.repositorio.UsuarioRepository;
 import com.example.prueba.service.CuentaService;
-import com.example.prueba.service.OficinaService;
+
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.*;
 
 
 @Controller
@@ -38,6 +41,8 @@ public class CuentaController {
 
     @Autowired
     private UsuarioRepository usuarioRepository;
+
+    private static final Logger logger = LoggerFactory.getLogger(CuentaController.class);
 
     @GetMapping("/cuenta")
     public String listarCuenta(Model model) {
@@ -127,24 +132,110 @@ public class CuentaController {
         return "redirect:/cuenta" ;
     }
 
-    @GetMapping("/cuenta/consignar/{idCuenta}/{monto}")
-    public String consignarCuenta(@PathVariable("idCuenta") ObjectId idCuenta,Model model, RedirectAttributes redirectAttributes, @PathVariable("monto") Integer monto) {;
+    
+    @GetMapping("/cuenta/consignar/{idCuenta}")
+    public String consignarCuenta(@PathVariable("idCuenta") ObjectId idCuenta,Model model, RedirectAttributes redirectAttributes) {;
         Cuenta cuenta = cuentaRepository.buscarporId(idCuenta);
         if(cuenta.getEstadoCuenta().equals("ACTIVA")){
-            Double montoFinal= monto.doubleValue();
-            cuentaService.consignarCuenta(idCuenta, montoFinal);
-            return "redirect:/cuenta";
+
+            return "cuentaConsignar";
         }
-
-
         else if(!cuenta.getEstadoCuenta().equals("ACTIVA")){
             redirectAttributes.addFlashAttribute("mensaje", "No se puede consignar en una cuenta no activa.");
 
         }
+        return "redirect:/cuenta" ;
+    }
+
+
+    @PostMapping("/cuenta/consignar/{idCuenta}/save")
+    public String consignarCuentaGuardar(@PathVariable("idCuenta") ObjectId idCuenta,Model model, RedirectAttributes redirectAttributes, @RequestParam("monto") String monto) {;
+        
+        Double montoFloat = Double.parseDouble(monto);
+        cuentaService.consignarCuenta(idCuenta, montoFloat);
+        Cuenta cuenta = cuentaRepository.buscarporId(idCuenta);  
+        Double saldo = cuenta.getSaldo();
+        logger.info("Fecha: {}, Numero de cuenta: {}, Monto: {}, Tipo de operacion: consignacion, Saldo: {}",
+            LocalDate.now(), idCuenta, monto, saldo);
+        return "redirect:/cuenta";
+
+    }
+    
+
+    @GetMapping("/cuenta/retirar/{idCuenta}")
+    public String retirarCuenta(@PathVariable("idCuenta") ObjectId idCuenta, Model model, RedirectAttributes redirectAttributes){;
+        Cuenta cuenta = cuentaRepository.buscarporId(idCuenta);
+        if(cuenta.getEstadoCuenta().equals("ACTIVA")){
+
+            return "cuentaRetirar";
+            }
+        else if(!cuenta.getEstadoCuenta().equals("ACTIVA")){
+            redirectAttributes.addFlashAttribute("mensaje", "No se puede consignar en una cuenta no activa.");
+        }
         else{
-            redirectAttributes.addFlashAttribute("mensaje", "Revise el monto.");
+            redirectAttributes.addFlashAttribute("mensaje", "Ocurrio un error.");
         }
         return "redirect:/cuenta" ;
     }
+
+    @PostMapping("/cuenta/retirar/{idCuenta}/save")
+    public String retirarCuentaGuardar(@PathVariable("idCuenta") ObjectId idCuenta, @RequestParam("monto") String monto, RedirectAttributes redirectAttributes){
+        Cuenta cuenta = cuentaRepository.buscarporId(idCuenta);
+        Double saldo = cuenta.getSaldo();
+        Double montoFloat = Double.parseDouble(monto);
+        Double montoFinal = cuenta.getSaldo()-montoFloat;
+        
+        if(montoFinal>=0){
+
+            cuentaService.retirarCuenta(idCuenta, montoFloat);
+            redirectAttributes.addFlashAttribute("mensaje", "Retiro exitoso.");
+            logger.info("Fecha: {}, Numero de cuenta: {}, Monto: {}, Tipo de operacion: retiro, Saldo: {}",
+            LocalDate.now(), idCuenta, monto, saldo);
+             
+        }
+        else{
+            redirectAttributes.addFlashAttribute("mensaje", "No tiene suficiente saldo.");
+        }
+
+        return "redirect:/cuenta";
+        }
+
+        @GetMapping("/cuenta/transferir/{idCuenta}")
+    public String cuentaTransferir(@PathVariable("idCuenta") ObjectId idCuenta, Model model, RedirectAttributes redirectAttributes) {
+        Cuenta cuenta = cuentaRepository.buscarporId(idCuenta);
+        Collection<Cuenta> cuentasTransferir = cuentaRepository.buscarPorEstado("ACTIVA");
+        if (cuenta != null && cuenta.getEstadoCuenta().equals("ACTIVA")) {
+            model.addAttribute("cuentasTransferir", cuentasTransferir);
+            return "cuentaTransferir";
+        } 
+        
+        else {
+            redirectAttributes.addFlashAttribute("mensaje", "La cuenta debe estar activa para realizar una transferencia.");
+            return "redirect:/cuenta";
+    }
+    }
+
+@PostMapping("/cuenta/transferir/{idCuenta}/save")
+    public String transferirCuentaGuardar(@PathVariable("idCuenta") ObjectId idCuenta, @RequestParam("cuentaDestino") ObjectId idCuentaDestino,@RequestParam("monto") String monto,RedirectAttributes redirectAttributes) {
+        Cuenta cuentaOrigen = cuentaRepository.buscarporId(idCuenta);
+        Cuenta cuentaDestino = cuentaRepository.buscarporId(idCuentaDestino);
+        double montoDouble = Double.parseDouble(monto);
+        
+        if(cuentaOrigen.getSaldo() >= montoDouble){
+                double saldoNuevoOrigen = cuentaOrigen.getSaldo() - montoDouble;
+                double saldoNuevoDestino = cuentaDestino.getSaldo() + montoDouble;
+                logger.info("Fecha: {}, Numero de cuenta origen: {},Numero de cuenta destino: {}, Monto: {}, Tipo de operacion: transferencia, Saldo cuenta origen: {}, Saldo cuenta destino: {}",
+                LocalDate.now(), cuentaOrigen.getId(), cuentaDestino.getId(), montoDouble, saldoNuevoOrigen, saldoNuevoDestino);
+                cuentaService.transaferirCuenta(idCuenta, idCuentaDestino, montoDouble);
+
+            }
+        else{
+                redirectAttributes.addFlashAttribute("mensaje", "Los fondos no son suficientes.");
+                
+            }
+
+        return "redirect:/cuenta";
+
+}
 
 }

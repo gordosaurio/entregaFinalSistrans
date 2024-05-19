@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Transferir</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href='@{/}'>
+            <img th:src="@{/images/logoPrincipal.png}" width="200" height="60">
+            </a>
+
+        </div>
+    </nav>
+
+    <h1 style="color: #78288c;">Vas a realizar una transferencia:</h1>
+    <br>
+
+    <div class="center-text">
+        
+        <form th:action="@{|/cuenta/transferir/${idCuenta}/save|}" method="post">
+            <div class="form-group">
+                <label for="monto" style="color: #78288c;">Monto:</label>
+                <input type="text" class="form-control" style="color: #78288c;" id="monto" name="monto" placeholder="Ingrese el monto"/>
+            </div>
+            
+            <div class="form-group">
+                <label for="cuentaDestino" style="color: #78288c;">Gerente:</label>
+                <select class="form-control" id="cuentaDestino" name="cuentaDestino" >
+                    <option style="color: #78288c;" value="" selected>Escoge la cuenta de destino</option>
+                    <th:block th:each="cuentaDestino : ${cuentasTransferir}" style="color: #78288c;">
+                        <option th:if="${cuentaDestino.id != idCuenta}" th:value="${cuentaDestino.id}" th:text="${cuentaDestino.id}" style="color: #78288c;"></option>
+                    </th:block>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color: #78288c; color: white;">Transferir</button>
+            <a th:href="@{/cuenta}" class="btn" style="background-color: #ee0e0e; color: white;">Cancelar</a>
+        </form>
+    </div>
+
+</body>
+
+</html>
