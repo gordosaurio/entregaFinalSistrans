@@ -23,6 +23,30 @@
     <h1 style="color: #78288c;">Listado de Cuentas:</h1>
     <br>
 
+    <form method="get" th:action="@{/cuenta/consultar}">
+        <label for="tipoCuenta">Tipo de Cuenta:</label>
+        <input type="text" id="tipoCuenta" name="tipoCuenta"><br>
+    
+        <label for="saldoMin">Saldo Mínimo:</label>
+        <input type="number" id="saldoMin" name="saldoMin" step="0.01"><br>
+    
+        <label for="saldoMax">Saldo Máximo:</label>
+        <input type="number" id="saldoMax" name="saldoMax" step="0.01"><br>
+    
+        <label for="fechaCreacion">Fecha de Creación:</label>
+        <input type="date" id="fechaCreacion" name="fechaCreacion"><br>
+    
+        <label for="fechaUltimoMovimiento">Fecha del Último Movimiento:</label>
+        <input type="date" id="fechaUltimoMovimiento" name="fechaUltimoMovimiento"><br>
+    
+        <label for="cliente">Cliente:</label>
+        <input type="text" id="cliente" name="cliente"><br>
+    
+        <input type="submit" value="Consultar">
+    </form>
+    
+    
+
     <div class="card-columns">
         <div th:each="cuenta : ${cuentas}">
             <div class="card" style="background-color: #78288c;">
@@ -53,18 +77,15 @@
                     <a th:href="@{'/cuenta/extractoCuenta/' +${cuenta.id}}" class="btn" style="background-color: #b659cd; color: white;" >Consultar extractos</a>
     
                 </div>
-              </div>
-          </div>
-      </div>
-      
+            </div>
+        </div>
+    </div>
 
-  
-      <div class="text-center">
-          <a class="nav-link active" aria-current="page" th:href="@{/cuenta/new}" style="color: #78288c;">Crear Cuenta</a>
-          <a th:href="@{/}" class="btn" style="background-color: #ee0e0e; color: white;">Volver Atrás</a>
-      </div>
-  
 
+    <div class="text-center">
+        <a class="nav-link active" aria-current="page" th:href="@{/cuenta/new}" style="color: #78288c;">Crear Cuenta</a>
+        <a th:href="@{/}" class="btn" style="background-color: #ee0e0e; color: white;">Volver Atrás</a>
+    </div>
 
 </body>
 </html>

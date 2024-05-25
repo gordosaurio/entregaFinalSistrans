@@ -1,4 +1,4 @@
-package com.example.prueba.controller;
+    package com.example.prueba.controller;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -11,28 +11,24 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 import org.bson.types.ObjectId;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.expression.spel.ast.Selection;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.prueba.modelo.Cuenta;
 import com.example.prueba.repositorio.CuentaRepository;
 import com.example.prueba.repositorio.UsuarioRepository;
 import com.example.prueba.service.CuentaService;
-
-
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.*;
-import org.apache.commons.lang3.StringUtils;
 
 
 
@@ -72,7 +68,6 @@ public class CuentaController {
         model.addAttribute("estadoCuenta", abrirEstado);
         return "cuentaNueva";
     }
-   
 
     @PostMapping("/cuenta/new/save")
     public String procesarUsuarioCliente(
@@ -202,7 +197,6 @@ public class CuentaController {
             redirectAttributes.addFlashAttribute("mensaje", "Retiro exitoso.");
             logger.info("Fecha: {}, Numero de cuenta: {}, Monto: {}, Tipo de operacion: retiro, Saldo: {}",
             LocalDate.now(), idCuenta, monto, saldo);
-             
         }
         else{
             redirectAttributes.addFlashAttribute("mensaje", "No tiene suficiente saldo.");
@@ -218,7 +212,7 @@ public class CuentaController {
         if (cuenta != null && cuenta.getEstadoCuenta().equals("ACTIVA")) {
             model.addAttribute("cuentasTransferir", cuentasTransferir);
             return "cuentaTransferir";
-        } 
+        }
         
         else {
             redirectAttributes.addFlashAttribute("mensaje", "La cuenta debe estar activa para realizar una transferencia.");
@@ -329,6 +323,18 @@ public String extractosInfo(Model model, @PathVariable("idCuenta") ObjectId idCu
         }
     }
     return "extractoCuenta";
+}
+
+@GetMapping("/cuenta/consultar")
+public String consultarCuentas(@RequestParam(required = false) String tipoCuenta,
+                            @RequestParam(required = false) Double saldoMin,
+                            @RequestParam(required = false) Double saldoMax,
+                            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fechaCreacion,
+                            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fechaUltimoMovimiento,
+                            @RequestParam(required = false) String cliente,Model model) {
+    List<Cuenta> cuentas = cuentaService.filtrarCuentas(tipoCuenta, saldoMin, saldoMax, fechaCreacion, fechaUltimoMovimiento, cliente);
+    model.addAttribute("cuentas", cuentas);
+    return "cuenta";
 }
 
     

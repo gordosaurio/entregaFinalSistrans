@@ -1,12 +1,15 @@
 package com.example.prueba.service;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
 import com.example.prueba.modelo.Cuenta;
@@ -19,6 +22,9 @@ public class CuentaService {
 
     @Autowired
     private CuentaRepository cuentaRepository;
+
+    @Autowired
+    MongoTemplate mongoTemplate;
 
     public void crearCuenta(ObjectId idUsuario,String tipoCuenta,String estadoCuenta,Date fechaUltimaTransaccion,Double saldo,Date fechaCreacion){
         Cuenta cuenta = new Cuenta();
@@ -97,6 +103,53 @@ public class CuentaService {
             cuentaRepository.save(cuentaD);
         }
         return cuenta;
+    }
+
+    public List<Cuenta> filtrarCuentas(String tipoCuenta, Double saldoMin, Double saldoMax, LocalDate fechaCreacion, LocalDate fechaUltimoMovimiento, String cliente) {
+        List<Cuenta> cuentas = cuentaRepository.buscarCuentas();
+
+        if (tipoCuenta != null && !tipoCuenta.isEmpty()) {
+            List<Cuenta> cuentaFiltrada = new ArrayList<>();
+            for (Cuenta cuenta : cuentas) {
+                if (cuenta.getTipoCuenta().equals(tipoCuenta)){
+                    cuentaFiltrada.add(cuenta);
+                }
+            }
+            cuentas = cuentaFiltrada;
+        }
+        System.out.println("----------------------------------------------");
+        System.out.println("revisar");
+        System.out.println("----------------------------------------------");
+        for (Cuenta cuenta : cuentas) {
+            System.out.println(cuenta.getTipoCuenta());
+        }
+        if (saldoMin != null) {
+            System.out.println("----------------------------------");
+            System.out.println("saldoMin");
+            System.out.println("----------------------------------");
+        }
+        if (saldoMax != null) {
+            System.out.println("----------------------------------");
+            System.out.println("saldoMax");
+            System.out.println("----------------------------------");
+        }
+        if (fechaCreacion != null) {
+            System.out.println("----------------------------------");
+            System.out.println("fechaCreacion");
+            System.out.println("----------------------------------");
+        }
+        if (fechaUltimoMovimiento != null) {
+            System.out.println("----------------------------------");
+            System.out.println("fechaUltimoMovimiento");
+            System.out.println("----------------------------------");
+        }
+        if (cliente != null && !cliente.isEmpty()) {
+            System.out.println("----------------------------------");
+            System.out.println("cliente");
+            System.out.println("----------------------------------");
+        }
+
+        return cuentas;
     }
 
 
