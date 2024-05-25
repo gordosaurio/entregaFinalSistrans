@@ -1,6 +1,7 @@
 package com.example.prueba.service;
 
 import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -14,6 +15,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.prueba.modelo.Cuenta;
 import com.example.prueba.repositorio.CuentaRepository;
+import com.example.prueba.repositorio.UsuarioRepository;
 
 @Service
 public class CuentaService {
@@ -22,6 +24,9 @@ public class CuentaService {
 
     @Autowired
     private CuentaRepository cuentaRepository;
+
+    @Autowired
+    private UsuarioRepository usuarioRepository;
 
     @Autowired
     MongoTemplate mongoTemplate;
@@ -117,40 +122,65 @@ public class CuentaService {
             }
             cuentas = cuentaFiltrada;
         }
-        System.out.println("----------------------------------------------");
-        System.out.println("revisar");
-        System.out.println("----------------------------------------------");
-        for (Cuenta cuenta : cuentas) {
-            System.out.println(cuenta.getTipoCuenta());
-        }
         if (saldoMin != null) {
-            System.out.println("----------------------------------");
-            System.out.println("saldoMin");
-            System.out.println("----------------------------------");
+            List<Cuenta> cuentaFiltrada = new ArrayList<>();
+            for (Cuenta cuenta : cuentas) {
+                if (cuenta.getSaldo() >= saldoMin){
+                    cuentaFiltrada.add(cuenta);
+                }
+            }
+            cuentas = cuentaFiltrada;
         }
         if (saldoMax != null) {
-            System.out.println("----------------------------------");
-            System.out.println("saldoMax");
-            System.out.println("----------------------------------");
+            List<Cuenta> cuentaFiltrada = new ArrayList<>();
+            for (Cuenta cuenta : cuentas) {
+                if (cuenta.getSaldo() <= saldoMax){
+                    cuentaFiltrada.add(cuenta);
+                }
+            }
+            cuentas = cuentaFiltrada;
         }
         if (fechaCreacion != null) {
-            System.out.println("----------------------------------");
-            System.out.println("fechaCreacion");
-            System.out.println("----------------------------------");
+            List<Cuenta> cuentaFiltrada = new ArrayList<>();
+            for (Cuenta cuenta : cuentas) {
+                LocalDate fechaCreacionCuenta = convertToLocalDateViaInstant(cuenta.getFechaCreacion());
+                if (fechaCreacionCuenta.equals(fechaCreacion)) {
+                    cuentaFiltrada.add(cuenta);
+                }
+            }
+            cuentas = cuentaFiltrada;
         }
         if (fechaUltimoMovimiento != null) {
-            System.out.println("----------------------------------");
-            System.out.println("fechaUltimoMovimiento");
-            System.out.println("----------------------------------");
+            List<Cuenta> cuentaFiltrada = new ArrayList<>();
+            for (Cuenta cuenta : cuentas) {
+                LocalDate fechaUltimoMovimientoCuenta = convertToLocalDateViaInstant(cuenta.getFechaCreacion());
+                if (fechaUltimoMovimientoCuenta.equals(fechaUltimoMovimiento)) {
+                    cuentaFiltrada.add(cuenta);
+                }
+            }
+            cuentas = cuentaFiltrada;
         }
         if (cliente != null && !cliente.isEmpty()) {
-            System.out.println("----------------------------------");
-            System.out.println("cliente");
-            System.out.println("----------------------------------");
+            List<Cuenta> cuentaFiltrada = new ArrayList<>();
+            for (Cuenta cuenta : cuentas) {
+                ObjectId idUsuario = cuenta.getId();
+                ObjectId clienteId = new ObjectId(cliente);
+                
+                if (clienteId.equals(idUsuario)){
+                    cuentaFiltrada.add(cuenta);
+                }
+            }
+            cuentas = cuentaFiltrada;
         }
 
         return cuentas;
     }
+
+    public LocalDate convertToLocalDateViaInstant(Date dateToConvert) {
+    return dateToConvert.toInstant()
+    .atZone(ZoneId.systemDefault())
+    .toLocalDate();
+}
 
 
 }
