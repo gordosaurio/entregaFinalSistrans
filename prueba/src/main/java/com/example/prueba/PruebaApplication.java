@@ -1,15 +1,11 @@
 package com.example.prueba;
 
-import java.util.List;
-
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.prueba.modelo.Cuenta;
 import com.example.prueba.repositorio.CuentaRepository;
 import com.example.prueba.repositorio.OficinaRepository;
 import com.example.prueba.repositorio.PuntoAtencionRepository;
@@ -56,9 +52,40 @@ public class PruebaApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        
-        
-/* 
+
+        /*prueba rfc 1 
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("aqui se muestra el filtrado por tipo cuenta");
+        System.out.println("------------------------------------------------------------------------");
+        List<Cuenta> cuentas = cuentaService.filtrarCuentas("AHORROS", null, null, null, null, null);
+        for (Cuenta c:cuentas){
+            System.out.println(c.getEstadoCuenta());
+        }
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("aqui se muestra el filtrado por saldo");
+        System.out.println("------------------------------------------------------------------------");
+        cuentas =cuentaService.filtrarCuentas(null, 0d, 2000000d, null, null, null);
+        for (Cuenta c:cuentas){
+            System.out.println(c.getSaldo());
+        }
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("aqui se muestra el filtrado por fecha creacion");
+        System.out.println("------------------------------------------------------------------------");
+        LocalDate fechaCreacion = LocalDate.of(2024, 5, 19);
+        cuentas=cuentaService.filtrarCuentas(null, null, null, fechaCreacion, null, null);
+        for (Cuenta c:cuentas){
+            System.out.println(c.getId());
+        }
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("aqui se muestra el filtrado por fecha ultima transaccion");
+        System.out.println("------------------------------------------------------------------------");
+        LocalDate fechaUltimaTransaccion = LocalDate.of(2024, 5, 24);
+        cuentas=cuentaService.filtrarCuentas(null, null, null, null, fechaUltimaTransaccion, null);
+        for (Cuenta c:cuentas){
+            System.out.println(c.getId());
+        }
+
+        /* 
         System.out.println("----------------------");
         System.out.println("holaaaaaa");
         System.out.println("----------------------");
