@@ -1,0 +1,1293 @@
+[{
+  "_id": {
+    "$oid": "66492c81e0c54e311bf65333"
+  },
+  "nombre": "Oficina Uno",
+  "direccion": "Calle 123",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf65327"
+  }
+},
+{
+  "_id": {
+    "$oid": "66492c81e0c54e311bf65334"
+  },
+  "nombre": "Oficina Dos",
+  "direccion": "Avenida 456",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf6532a"
+  }
+},
+{
+  "_id": {
+    "$oid": "66492c81e0c54e311bf65335"
+  },
+  "nombre": "Oficina Tres",
+  "direccion": "Plaza 789",
+  "numeroPuntosDisponibles": 2,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  }
+},
+{
+  "_id": {
+    "$oid": "6649352821dab82f58a660ec"
+  },
+  "nombre": "prueba",
+  "direccion": "direccion",
+  "numeroPuntosDisponibles": 2,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf65327"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "664a405bab9291010c625207"
+  },
+  "nombre": "PRUEBA 2",
+  "direccion": "DIRECCION 2",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf65327"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a06befd01af3ae0db4"
+  },
+  "nombre": "Sucursal BancAndes Norte",
+  "direccion": "carrera 12#43-54",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf65327"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a16befd01af3ae0db5"
+  },
+  "nombre": "Sucursal BancAndes Sur",
+  "direccion": "calle 15#24-35",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf6532a"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a16befd01af3ae0db6"
+  },
+  "nombre": "Sucursal BancAndes Este",
+  "direccion": "avenida 34#10-20",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a16befd01af3ae0db7"
+  },
+  "nombre": "Sucursal BancAndes Oeste",
+  "direccion": "carrera 19#45-67",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650ede9d6ae76093e15b985"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a16befd01af3ae0db8"
+  },
+  "nombre": "Sucursal BancAndes Central",
+  "direccion": "calle 50#30-40",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edead6ae76093e15b986"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a16befd01af3ae0db9"
+  },
+  "nombre": "Sucursal BancAndes Chapinero",
+  "direccion": "avenida 7#12-34",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edebd6ae76093e15b987"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a16befd01af3ae0dba"
+  },
+  "nombre": "Sucursal BancAndes Cedritos",
+  "direccion": "carrera 15#72-85",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edebd6ae76093e15b988"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dbb"
+  },
+  "nombre": "Sucursal BancAndes Suba",
+  "direccion": "calle 170#50-60",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edebd6ae76093e15b989"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dbc"
+  },
+  "nombre": "Sucursal BancAndes Usaquén",
+  "direccion": "avenida 9#112-30",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edebd6ae76093e15b98a"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dbd"
+  },
+  "nombre": "Sucursal BancAndes Kennedy",
+  "direccion": "carrera 80#40-50",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edebd6ae76093e15b98b"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dbe"
+  },
+  "nombre": "Sucursal BancAndes Fontibón",
+  "direccion": "calle 22#72-14",
+  "numeroPuntosDisponibles": 2,
+  "idGerente": {
+    "$oid": "6650edebd6ae76093e15b98c"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dbf"
+  },
+  "nombre": "Sucursal BancAndes Engativá",
+  "direccion": "avenida 68#20-32",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edecd6ae76093e15b98d"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dc0"
+  },
+  "nombre": "Sucursal BancAndes Bosa",
+  "direccion": "carrera 87#38-21",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edecd6ae76093e15b98e"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a26befd01af3ae0dc1"
+  },
+  "nombre": "Sucursal BancAndes Tunal",
+  "direccion": "calle 50#48-15",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edecd6ae76093e15b98f"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc2"
+  },
+  "nombre": "Sucursal BancAndes Teusaquillo",
+  "direccion": "avenida 26#45-78",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edecd6ae76093e15b990"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc3"
+  },
+  "nombre": "Sucursal BancAndes Candelaria",
+  "direccion": "carrera 4#14-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edecd6ae76093e15b991"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc4"
+  },
+  "nombre": "Sucursal BancAndes San Cristóbal",
+  "direccion": "calle 6#3-20",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edecd6ae76093e15b992"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc5"
+  },
+  "nombre": "Sucursal BancAndes Santa Fe",
+  "direccion": "avenida 13#5-34",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b993"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc6"
+  },
+  "nombre": "Sucursal BancAndes Antonio Nariño",
+  "direccion": "carrera 10#27-89",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b994"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc7"
+  },
+  "nombre": "Sucursal BancAndes Rafael Uribe",
+  "direccion": "calle 32#40-50",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b995"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a36befd01af3ae0dc8"
+  },
+  "nombre": "Sucursal BancAndes Usme",
+  "direccion": "avenida 1#112-20",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b996"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dc9"
+  },
+  "nombre": "Sucursal BancAndes Ciudad Bolívar",
+  "direccion": "carrera 50#20-45",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b997"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dca"
+  },
+  "nombre": "Sucursal BancAndes Puente Aranda",
+  "direccion": "calle 13#67-89",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b998"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dcb"
+  },
+  "nombre": "Sucursal BancAndes Barrios Unidos",
+  "direccion": "avenida 68#95-12",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650ededd6ae76093e15b999"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dcc"
+  },
+  "nombre": "Sucursal BancAndes Mártires",
+  "direccion": "carrera 16#13-22",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edeed6ae76093e15b99a"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dcd"
+  },
+  "nombre": "Sucursal BancAndes Tunjuelito",
+  "direccion": "calle 40#50-60",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edeed6ae76093e15b99b"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dce"
+  },
+  "nombre": "Sucursal BancAndes La Uribe",
+  "direccion": "avenida 7#2-14",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edeed6ae76093e15b99c"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dcf"
+  },
+  "nombre": "Sucursal BancAndes Soacha",
+  "direccion": "carrera 13#30-45",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edeed6ae76093e15b99d"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a46befd01af3ae0dd0"
+  },
+  "nombre": "Sucursal BancAndes Mosquera",
+  "direccion": "calle 17#8-10",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edeed6ae76093e15b99e"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd1"
+  },
+  "nombre": "Sucursal BancAndes Funza",
+  "direccion": "avenida 4#12-45",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edeed6ae76093e15b99f"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd2"
+  },
+  "nombre": "Sucursal BancAndes Chía",
+  "direccion": "carrera 9#11-67",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a0"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd3"
+  },
+  "nombre": "Sucursal BancAndes Cajicá",
+  "direccion": "calle 21#5-43",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a1"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd4"
+  },
+  "nombre": "Sucursal BancAndes Zipaquirá",
+  "direccion": "avenida 22#10-21",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a2"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd5"
+  },
+  "nombre": "Sucursal BancAndes Facatativá",
+  "direccion": "carrera 18#7-33",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a3"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd6"
+  },
+  "nombre": "Sucursal BancAndes Madrid",
+  "direccion": "calle 14#30-54",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a4"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a56befd01af3ae0dd7"
+  },
+  "nombre": "Sucursal BancAndes Cota",
+  "direccion": "avenida 8#12-23",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a5"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0dd8"
+  },
+  "nombre": "Sucursal BancAndes La Calera",
+  "direccion": "carrera 6#8-15",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edefd6ae76093e15b9a6"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0dd9"
+  },
+  "nombre": "Sucursal BancAndes Sopó",
+  "direccion": "calle 5#4-14",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf0d6ae76093e15b9a7"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0dda"
+  },
+  "nombre": "Sucursal BancAndes Tocancipá",
+  "direccion": "avenida 1#2-14",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf0d6ae76093e15b9a8"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0ddb"
+  },
+  "nombre": "Sucursal BancAndes Tenjo",
+  "direccion": "carrera 3#5-18",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf0d6ae76093e15b9a9"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0ddc"
+  },
+  "nombre": "Sucursal BancAndes Tabio",
+  "direccion": "calle 8#2-14",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf0d6ae76093e15b9aa"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0ddd"
+  },
+  "nombre": "Sucursal BancAndes Guasca",
+  "direccion": "avenida 10#11-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf0d6ae76093e15b9ab"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a66befd01af3ae0dde"
+  },
+  "nombre": "Sucursal BancAndes Cogua",
+  "direccion": "carrera 14#4-22",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9ac"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0ddf"
+  },
+  "nombre": "Sucursal BancAndes Sibaté",
+  "direccion": "calle 12#16-32",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9ad"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0de0"
+  },
+  "nombre": "Sucursal BancAndes Villeta",
+  "direccion": "avenida 3#7-23",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9ae"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0de1"
+  },
+  "nombre": "Sucursal BancAndes La Mesa",
+  "direccion": "carrera 15#8-21",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9af"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0de2"
+  },
+  "nombre": "Sucursal BancAndes Fusagasugá",
+  "direccion": "calle 10#18-45",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9b0"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0de3"
+  },
+  "nombre": "Sucursal BancAndes Girardot",
+  "direccion": "avenida 8#4-22",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9b1"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0de4"
+  },
+  "nombre": "Sucursal BancAndes Melgar",
+  "direccion": "carrera 10#9-32",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf1d6ae76093e15b9b2"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a76befd01af3ae0de5"
+  },
+  "nombre": "Sucursal BancAndes Honda",
+  "direccion": "calle 5#3-18",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf2d6ae76093e15b9b3"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0de6"
+  },
+  "nombre": "Sucursal BancAndes Mariquita",
+  "direccion": "avenida 7#8-10",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf2d6ae76093e15b9b4"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0de7"
+  },
+  "nombre": "Sucursal BancAndes Anapoima",
+  "direccion": "carrera 14#5-23",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf2d6ae76093e15b9b5"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0de8"
+  },
+  "nombre": "Sucursal BancAndes Villavicencio",
+  "direccion": "calle 12#10-24",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf2d6ae76093e15b9b6"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0de9"
+  },
+  "nombre": "Sucursal BancAndes Acacías",
+  "direccion": "avenida 8#4-19",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf3d6ae76093e15b9b7"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0dea"
+  },
+  "nombre": "Sucursal BancAndes Granada",
+  "direccion": "carrera 6#9-30",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf3d6ae76093e15b9b8"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0deb"
+  },
+  "nombre": "Sucursal BancAndes San Martín",
+  "direccion": "calle 7#3-14",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf3d6ae76093e15b9b9"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a86befd01af3ae0dec"
+  },
+  "nombre": "Sucursal BancAndes Puerto López",
+  "direccion": "avenida 9#12-23",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf3d6ae76093e15b9ba"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0ded"
+  },
+  "nombre": "Sucursal BancAndes Puerto Gaitán",
+  "direccion": "carrera 11#8-15",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf4d6ae76093e15b9bb"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0dee"
+  },
+  "nombre": "Sucursal BancAndes Cumaral",
+  "direccion": "calle 13#7-20",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf4d6ae76093e15b9bc"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0def"
+  },
+  "nombre": "Sucursal BancAndes Restrepo",
+  "direccion": "avenida 12#4-21",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf4d6ae76093e15b9bd"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0df0"
+  },
+  "nombre": "Sucursal BancAndes San José del Guaviare",
+  "direccion": "carrera 8#9-23",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf4d6ae76093e15b9be"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0df1"
+  },
+  "nombre": "Sucursal BancAndes Mitú",
+  "direccion": "calle 6#5-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf4d6ae76093e15b9bf"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0df2"
+  },
+  "nombre": "Sucursal BancAndes Inírida",
+  "direccion": "avenida 4#3-14",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf4d6ae76093e15b9c0"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3a96befd01af3ae0df3"
+  },
+  "nombre": "Sucursal BancAndes Leticia",
+  "direccion": "carrera 5#6-10",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf5d6ae76093e15b9c1"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0df4"
+  },
+  "nombre": "Sucursal BancAndes Puerto Carreño",
+  "direccion": "calle 8#7-23",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf5d6ae76093e15b9c2"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0df5"
+  },
+  "nombre": "Sucursal BancAndes Florencia",
+  "direccion": "avenida 3#4-21",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf5d6ae76093e15b9c3"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0df6"
+  },
+  "nombre": "Sucursal BancAndes Mocoa",
+  "direccion": "carrera 9#5-18",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf5d6ae76093e15b9c4"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0df7"
+  },
+  "nombre": "Sucursal BancAndes Pasto",
+  "direccion": "calle 11#2-14",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf5d6ae76093e15b9c5"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0df8"
+  },
+  "nombre": "Sucursal BancAndes Popayán",
+  "direccion": "avenida 7#1-23",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf5d6ae76093e15b9c6"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0df9"
+  },
+  "nombre": "Sucursal BancAndes Cali",
+  "direccion": "carrera 4#9-15",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9c7"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3aa6befd01af3ae0dfa"
+  },
+  "nombre": "Sucursal BancAndes Buenaventura",
+  "direccion": "calle 8#12-24",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9c8"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0dfb"
+  },
+  "nombre": "Sucursal BancAndes Palmira",
+  "direccion": "avenida 9#10-23",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9c9"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0dfc"
+  },
+  "nombre": "Sucursal BancAndes Yumbo",
+  "direccion": "carrera 8#7-18",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9ca"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0dfd"
+  },
+  "nombre": "Sucursal BancAndes Tuluá",
+  "direccion": "calle 12#3-14",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9cb"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0dfe"
+  },
+  "nombre": "Sucursal BancAndes Buga",
+  "direccion": "avenida 14#6-15",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9cc"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0dff"
+  },
+  "nombre": "Sucursal BancAndes Cartago",
+  "direccion": "carrera 11#8-12",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf6d6ae76093e15b9cd"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0e00"
+  },
+  "nombre": "Sucursal BancAndes Armenia",
+  "direccion": "calle 4#5-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf7d6ae76093e15b9ce"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ab6befd01af3ae0e01"
+  },
+  "nombre": "Sucursal BancAndes Manizales",
+  "direccion": "avenida 7#6-13",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf7d6ae76093e15b9cf"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e02"
+  },
+  "nombre": "Sucursal BancAndes Pereira",
+  "direccion": "carrera 12#3-15",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf7d6ae76093e15b9d0"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e03"
+  },
+  "nombre": "Sucursal BancAndes Dosquebradas",
+  "direccion": "calle 9#7-12",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf7d6ae76093e15b9d1"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e04"
+  },
+  "nombre": "Sucursal BancAndes Santa Rosa de Cabal",
+  "direccion": "avenida 8#10-23",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf7d6ae76093e15b9d2"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e05"
+  },
+  "nombre": "Sucursal BancAndes Montería",
+  "direccion": "carrera 6#4-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf7d6ae76093e15b9d3"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e06"
+  },
+  "nombre": "Sucursal BancAndes Sincelejo",
+  "direccion": "calle 3#5-14",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9d4"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e07"
+  },
+  "nombre": "Sucursal BancAndes Corozal",
+  "direccion": "avenida 7#3-12",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9d5"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ac6befd01af3ae0e08"
+  },
+  "nombre": "Sucursal BancAndes San Marcos",
+  "direccion": "carrera 8#6-15",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9d6"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ad6befd01af3ae0e09"
+  },
+  "nombre": "Sucursal BancAndes Barranquilla",
+  "direccion": "calle 10#8-21",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9d7"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ad6befd01af3ae0e0a"
+  },
+  "nombre": "Sucursal BancAndes Soledad",
+  "direccion": "avenida 5#3-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9d8"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ad6befd01af3ae0e0b"
+  },
+  "nombre": "Sucursal BancAndes Sabanalarga",
+  "direccion": "carrera 7#6-14",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9d9"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ad6befd01af3ae0e0c"
+  },
+  "nombre": "Sucursal BancAndes Cartagena",
+  "direccion": "calle 11#9-15",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9da"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ad6befd01af3ae0e0d"
+  },
+  "nombre": "Sucursal BancAndes Turbaco",
+  "direccion": "avenida 8#3-14",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf8d6ae76093e15b9db"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ad6befd01af3ae0e0e"
+  },
+  "nombre": "Sucursal BancAndes Santa Marta",
+  "direccion": "carrera 9#5-12",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf9d6ae76093e15b9dc"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e0f"
+  },
+  "nombre": "Sucursal BancAndes Ciénaga",
+  "direccion": "calle 14#6-18",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edf9d6ae76093e15b9dd"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e10"
+  },
+  "nombre": "Sucursal BancAndes Aracataca",
+  "direccion": "avenida 12#4-23",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edf9d6ae76093e15b9de"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e11"
+  },
+  "nombre": "Sucursal BancAndes Riohacha",
+  "direccion": "carrera 8#3-12",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edf9d6ae76093e15b9df"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e12"
+  },
+  "nombre": "Sucursal BancAndes Maicao",
+  "direccion": "calle 5#4-18",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edf9d6ae76093e15b9e0"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e13"
+  },
+  "nombre": "Sucursal BancAndes Valledupar",
+  "direccion": "avenida 7#3-15",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edf9d6ae76093e15b9e1"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e14"
+  },
+  "nombre": "Sucursal BancAndes Aguachica",
+  "direccion": "carrera 8#5-12",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edfad6ae76093e15b9e2"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3ae6befd01af3ae0e15"
+  },
+  "nombre": "Sucursal BancAndes Bosconia",
+  "direccion": "calle 12#4-15",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edfad6ae76093e15b9e3"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3af6befd01af3ae0e16"
+  },
+  "nombre": "Sucursal BancAndes San Juan del Cesar",
+  "direccion": "avenida 3#2-12",
+  "numeroPuntosDisponibles": 6,
+  "idGerente": {
+    "$oid": "6650edfad6ae76093e15b9e4"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3af6befd01af3ae0e17"
+  },
+  "nombre": "Sucursal BancAndes Monterrey",
+  "direccion": "carrera 10#5-13",
+  "numeroPuntosDisponibles": 7,
+  "idGerente": {
+    "$oid": "6650edfad6ae76093e15b9e5"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3af6befd01af3ae0e18"
+  },
+  "nombre": "Sucursal BancAndes Tauramena",
+  "direccion": "calle 8#3-14",
+  "numeroPuntosDisponibles": 3,
+  "idGerente": {
+    "$oid": "6650edfad6ae76093e15b9e6"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3af6befd01af3ae0e19"
+  },
+  "nombre": "Sucursal BancAndes Yopal",
+  "direccion": "avenida 11#4-23",
+  "numeroPuntosDisponibles": 4,
+  "idGerente": {
+    "$oid": "6650edfad6ae76093e15b9e7"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+},
+{
+  "_id": {
+    "$oid": "6650f3af6befd01af3ae0e1a"
+  },
+  "nombre": "Sucursal BancAndes Villanueva",
+  "direccion": "carrera 7#8-13",
+  "numeroPuntosDisponibles": 5,
+  "idGerente": {
+    "$oid": "6650edfbd6ae76093e15b9e8"
+  },
+  "_class": "com.example.prueba.modelo.Oficina"
+}]

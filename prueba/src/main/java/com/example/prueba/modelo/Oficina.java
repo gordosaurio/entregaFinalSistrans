@@ -53,4 +53,12 @@ public class Oficina {
     public void setNumeroPuntosDisponibles(int numeroPuntosDisponibles) {
         this.numeroPuntosDisponibles = numeroPuntosDisponibles;
     }
+
+    @Override
+    public String toString() {
+        return "Oficina [id=" + id + ", nombre=" + nombre + ", direccion=" + direccion + ", numeroPuntosDisponibles="
+                + numeroPuntosDisponibles + ", idGerente=" + idGerente + "]";
+    }
+
+    
 }

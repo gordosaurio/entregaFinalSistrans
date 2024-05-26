@@ -1,5 +1,6 @@
 package com.example.prueba.repositorio;
 
+import java.util.Date;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -27,4 +28,10 @@ public interface CuentaRepository  extends MongoRepository<Cuenta, ObjectId>{
     @Update("{$set: {saldo : ?1}}")
     void actualizarSaldo(ObjectId idPuntoAtencion, Double saldo);
 
+    @Query("{_id : ?0}")
+    @Update("{'$set':{'idUsuario': ?1,'tipoCuenta': ?2, 'estadoCuenta': ?3, 'fechaUltimaTransaccion': ?4, 'saldo': ?5, 'fechaCreacion': ?6}}")
+    void updateCuenta(ObjectId id, ObjectId idUsuario, String tipoCuenta, String estadoCuenta, Date transaccion, Double saldo, Date creacion );
+
+    @Query(value="{_id : ?0}", delete = true)
+    void deleteById(ObjectId id);
 }

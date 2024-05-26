@@ -72,5 +72,13 @@ public class Cuenta {
     public void setTipoCuenta(String tipoCuenta) {
         this.tipoCuenta = tipoCuenta;
     }
+
+    @Override
+    public String toString() {
+        return "Cuenta [id=" + id + ", idUsuario=" + idUsuario + ", tipoCuenta=" + tipoCuenta + ", estadoCuenta="
+                + estadoCuenta + ", fechaUltimaTransaccion=" + fechaUltimaTransaccion + ", saldo=" + saldo
+                + ", fechaCreacion=" + fechaCreacion + "]";
+    }
+    
     
 }

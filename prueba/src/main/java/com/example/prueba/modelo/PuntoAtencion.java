@@ -69,6 +69,14 @@ public class PuntoAtencion {
     public void setTipoPuntoAtencion(String tipoPuntoAtencion) {
         this.tipoPuntoAtencion = tipoPuntoAtencion;
     }
+
+    @Override
+    public String toString() {
+        return "PuntoAtencion [id=" + id + ", nombre=" + nombre + ", tipoPuntoAtencion=" + tipoPuntoAtencion
+                + ", locacion=" + locacion + ", horarioApertura=" + horarioApertura + ", horarioCierre=" + horarioCierre
+                + ", idOficina=" + idOficina + "]";
+    }
+    
     
     
 }

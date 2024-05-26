@@ -1,0 +1,2574 @@
+[{
+  "_id": {
+    "$oid": "6648fcbde5646c5bf7110794"
+  },
+  "idUsuario": {
+    "$oid": "6648f944eee82b69156ddf5a"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-18T19:08:45.769Z"
+  },
+  "saldo": 117,
+  "fechaCreacion": {
+    "$date": "2024-05-18T19:08:45.769Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "66495a54574a6f38e62f73ea"
+  },
+  "idUsuario": {
+    "$oid": "6648cd7f7538112f97c3d5af"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-18T05:00:00.000Z"
+  },
+  "saldo": 132132,
+  "fechaCreacion": {
+    "$date": "2024-05-18T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "664a27e5ee329627fb97e119"
+  },
+  "idUsuario": {
+    "$oid": "6648cd7f7538112f97c3d5af"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-19T05:00:00.000Z"
+  },
+  "saldo": 121059.1,
+  "fechaCreacion": {
+    "$date": "2024-05-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d3c9f50d4d43c2312b"
+  },
+  "idUsuario": {
+    "$oid": "6648cd7f7538112f97c3d5af"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-24T05:00:00.000Z"
+  },
+  "saldo": 5000000,
+  "fechaCreacion": {
+    "$date": "2024-05-24T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d4c9f50d4d43c2312c"
+  },
+  "idUsuario": {
+    "$oid": "6648f944eee82b69156ddf5a"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-04-15T05:00:00.000Z"
+  },
+  "saldo": 1200000,
+  "fechaCreacion": {
+    "$date": "2022-03-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d4c9f50d4d43c2312d"
+  },
+  "idUsuario": {
+    "$oid": "6649208444cac055f22317ae"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-10-05T05:00:00.000Z"
+  },
+  "saldo": 2500000,
+  "fechaCreacion": {
+    "$date": "2021-09-01T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d4c9f50d4d43c2312e"
+  },
+  "idUsuario": {
+    "$oid": "664925927f14aa3b70750207"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-12-12T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-20T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d4c9f50d4d43c2312f"
+  },
+  "idUsuario": {
+    "$oid": "66492637a783d505d9bdc111"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-01-08T05:00:00.000Z"
+  },
+  "saldo": 450000,
+  "fechaCreacion": {
+    "$date": "2023-08-07T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d4c9f50d4d43c23130"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65325"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-07-21T05:00:00.000Z"
+  },
+  "saldo": 8000000,
+  "fechaCreacion": {
+    "$date": "2021-04-30T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23131"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65326"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-06-14T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-12-25T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23132"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65327"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-11-30T05:00:00.000Z"
+  },
+  "saldo": 750000,
+  "fechaCreacion": {
+    "$date": "2022-06-11T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23133"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65328"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-17T05:00:00.000Z"
+  },
+  "saldo": 2000000,
+  "fechaCreacion": {
+    "$date": "2021-08-03T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23134"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65329"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-05-09T05:00:00.000Z"
+  },
+  "saldo": 3000000,
+  "fechaCreacion": {
+    "$date": "2020-03-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23135"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532a"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-08-25T05:00:00.000Z"
+  },
+  "saldo": 150000,
+  "fechaCreacion": {
+    "$date": "2021-07-18T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23136"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532b"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-11-28T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-10-01T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d5c9f50d4d43c23137"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532c"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-03-13T05:00:00.000Z"
+  },
+  "saldo": 4500000,
+  "fechaCreacion": {
+    "$date": "2022-12-29T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c23138"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-06-10T05:00:00.000Z"
+  },
+  "saldo": 6000000,
+  "fechaCreacion": {
+    "$date": "2020-01-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c23139"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532e"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-02-22T05:00:00.000Z"
+  },
+  "saldo": 950000,
+  "fechaCreacion": {
+    "$date": "2021-11-27T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c2313a"
+  },
+  "idUsuario": {
+    "$oid": "6650e6ef25bfa47a66f27547"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-04-30T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-06T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c2313b"
+  },
+  "idUsuario": {
+    "$oid": "6650e6ef25bfa47a66f27548"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-08-19T05:00:00.000Z"
+  },
+  "saldo": 230000,
+  "fechaCreacion": {
+    "$date": "2021-03-22T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c2313c"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f27549"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-05-27T05:00:00.000Z"
+  },
+  "saldo": 3700000,
+  "fechaCreacion": {
+    "$date": "2020-06-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c2313d"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754a"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-07-14T05:00:00.000Z"
+  },
+  "saldo": 620000,
+  "fechaCreacion": {
+    "$date": "2021-09-16T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d6c9f50d4d43c2313e"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754b"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-04-05T05:00:00.000Z"
+  },
+  "saldo": 5400000,
+  "fechaCreacion": {
+    "$date": "2022-10-07T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c2313f"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754c"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-01-15T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2021-04-12T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c23140"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754d"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-08-30T05:00:00.000Z"
+  },
+  "saldo": 880000,
+  "fechaCreacion": {
+    "$date": "2020-07-24T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c23141"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754e"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-02-08T05:00:00.000Z"
+  },
+  "saldo": 1100000,
+  "fechaCreacion": {
+    "$date": "2022-05-04T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c23142"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754f"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-11-20T05:00:00.000Z"
+  },
+  "saldo": 4700000,
+  "fechaCreacion": {
+    "$date": "2021-06-17T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c23143"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27550"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-10-29T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-05-15T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c23144"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27551"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-09-23T05:00:00.000Z"
+  },
+  "saldo": 3300000,
+  "fechaCreacion": {
+    "$date": "2022-03-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d7c9f50d4d43c23145"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27552"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-12-11T05:00:00.000Z"
+  },
+  "saldo": 900000,
+  "fechaCreacion": {
+    "$date": "2020-08-25T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c23146"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27553"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-03-02T05:00:00.000Z"
+  },
+  "saldo": 7500000,
+  "fechaCreacion": {
+    "$date": "2021-07-06T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c23147"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27554"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-06-18T05:00:00.000Z"
+  },
+  "saldo": 1500000,
+  "fechaCreacion": {
+    "$date": "2021-02-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c23148"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27555"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-12-27T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-03-28T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c23149"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27556"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-01-07T05:00:00.000Z"
+  },
+  "saldo": 3100000,
+  "fechaCreacion": {
+    "$date": "2020-11-13T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c2314a"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27557"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-05-12T05:00:00.000Z"
+  },
+  "saldo": 490000,
+  "fechaCreacion": {
+    "$date": "2020-09-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c2314b"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27558"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-20T05:00:00.000Z"
+  },
+  "saldo": 200000,
+  "fechaCreacion": {
+    "$date": "2021-10-01T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d8c9f50d4d43c2314c"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27559"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-07-15T05:00:00.000Z"
+  },
+  "saldo": 2800000,
+  "fechaCreacion": {
+    "$date": "2020-05-03T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c2314d"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755a"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-03-06T05:00:00.000Z"
+  },
+  "saldo": 5000000,
+  "fechaCreacion": {
+    "$date": "2021-08-24T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c2314e"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755b"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-10-16T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-09-29T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c2314f"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755c"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-04-30T05:00:00.000Z"
+  },
+  "saldo": 6000000,
+  "fechaCreacion": {
+    "$date": "2022-12-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c23150"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755d"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-05-25T05:00:00.000Z"
+  },
+  "saldo": 400000,
+  "fechaCreacion": {
+    "$date": "2020-02-12T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c23151"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f2755e"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-09-19T05:00:00.000Z"
+  },
+  "saldo": 770000,
+  "fechaCreacion": {
+    "$date": "2020-06-30T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c23152"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f2755f"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-24T05:00:00.000Z"
+  },
+  "saldo": 4500000,
+  "fechaCreacion": {
+    "$date": "2021-11-08T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107d9c9f50d4d43c23153"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27560"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-04-14T05:00:00.000Z"
+  },
+  "saldo": 3400000,
+  "fechaCreacion": {
+    "$date": "2021-01-17T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c23154"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27561"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-07-01T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-06-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c23155"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27562"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-03-23T05:00:00.000Z"
+  },
+  "saldo": 230000,
+  "fechaCreacion": {
+    "$date": "2020-12-15T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c23156"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27563"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-10-29T05:00:00.000Z"
+  },
+  "saldo": 1900000,
+  "fechaCreacion": {
+    "$date": "2020-03-06T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c23157"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27564"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-12-04T05:00:00.000Z"
+  },
+  "saldo": 820000,
+  "fechaCreacion": {
+    "$date": "2021-07-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c23158"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27565"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-09-18T05:00:00.000Z"
+  },
+  "saldo": 3200000,
+  "fechaCreacion": {
+    "$date": "2020-08-27T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c23159"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27566"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-06-20T05:00:00.000Z"
+  },
+  "saldo": 270000,
+  "fechaCreacion": {
+    "$date": "2021-09-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dac9f50d4d43c2315a"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27567"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-08-03T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-11-11T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c2315b"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27568"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-09T05:00:00.000Z"
+  },
+  "saldo": 7800000,
+  "fechaCreacion": {
+    "$date": "2023-04-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c2315c"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27569"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-10-08T05:00:00.000Z"
+  },
+  "saldo": 110000,
+  "fechaCreacion": {
+    "$date": "2021-06-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c2315d"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756a"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-11-01T05:00:00.000Z"
+  },
+  "saldo": 6600000,
+  "fechaCreacion": {
+    "$date": "2022-07-13T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c2315e"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756b"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-12-25T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-02T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c2315f"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756c"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-01-11T05:00:00.000Z"
+  },
+  "saldo": 570000,
+  "fechaCreacion": {
+    "$date": "2022-11-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c23160"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756d"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-05-26T05:00:00.000Z"
+  },
+  "saldo": 2900000,
+  "fechaCreacion": {
+    "$date": "2021-03-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dbc9f50d4d43c23161"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756e"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-08-12T05:00:00.000Z"
+  },
+  "saldo": 3500000,
+  "fechaCreacion": {
+    "$date": "2021-12-30T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23162"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756f"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-07-17T05:00:00.000Z"
+  },
+  "saldo": 900000,
+  "fechaCreacion": {
+    "$date": "2020-04-21T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23163"
+  },
+  "idUsuario": {
+    "$oid": "6648cd7f7538112f97c3d5af"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-24T05:00:00.000Z"
+  },
+  "saldo": 5000000,
+  "fechaCreacion": {
+    "$date": "2024-05-24T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23164"
+  },
+  "idUsuario": {
+    "$oid": "6648f944eee82b69156ddf5a"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-04-15T05:00:00.000Z"
+  },
+  "saldo": 1200000,
+  "fechaCreacion": {
+    "$date": "2022-03-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23165"
+  },
+  "idUsuario": {
+    "$oid": "6649208444cac055f22317ae"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-10-05T05:00:00.000Z"
+  },
+  "saldo": 2500000,
+  "fechaCreacion": {
+    "$date": "2021-09-01T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23166"
+  },
+  "idUsuario": {
+    "$oid": "664925927f14aa3b70750207"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-12-12T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-20T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23167"
+  },
+  "idUsuario": {
+    "$oid": "66492637a783d505d9bdc111"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-01-08T05:00:00.000Z"
+  },
+  "saldo": 450000,
+  "fechaCreacion": {
+    "$date": "2023-08-07T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23168"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65325"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-07-21T05:00:00.000Z"
+  },
+  "saldo": 8000000,
+  "fechaCreacion": {
+    "$date": "2021-04-30T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dcc9f50d4d43c23169"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65326"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-06-14T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-12-25T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c2316a"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65327"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-11-30T05:00:00.000Z"
+  },
+  "saldo": 750000,
+  "fechaCreacion": {
+    "$date": "2022-06-11T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c2316b"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65328"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-17T05:00:00.000Z"
+  },
+  "saldo": 2000000,
+  "fechaCreacion": {
+    "$date": "2021-08-03T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c2316c"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf65329"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-05-09T05:00:00.000Z"
+  },
+  "saldo": 3000000,
+  "fechaCreacion": {
+    "$date": "2020-03-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c2316d"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532a"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-08-25T05:00:00.000Z"
+  },
+  "saldo": 150000,
+  "fechaCreacion": {
+    "$date": "2021-07-18T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c2316e"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532b"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-11-28T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-10-01T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c2316f"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532c"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-03-13T05:00:00.000Z"
+  },
+  "saldo": 4500000,
+  "fechaCreacion": {
+    "$date": "2022-12-29T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107ddc9f50d4d43c23170"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-06-10T05:00:00.000Z"
+  },
+  "saldo": 6000000,
+  "fechaCreacion": {
+    "$date": "2020-01-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23171"
+  },
+  "idUsuario": {
+    "$oid": "66492bcce0c54e311bf6532e"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-02-22T05:00:00.000Z"
+  },
+  "saldo": 950000,
+  "fechaCreacion": {
+    "$date": "2021-11-27T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23172"
+  },
+  "idUsuario": {
+    "$oid": "6650e6ef25bfa47a66f27547"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-04-30T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-06T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23173"
+  },
+  "idUsuario": {
+    "$oid": "6650e6ef25bfa47a66f27548"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-08-19T05:00:00.000Z"
+  },
+  "saldo": 230000,
+  "fechaCreacion": {
+    "$date": "2021-03-22T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23174"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f27549"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-05-27T05:00:00.000Z"
+  },
+  "saldo": 3700000,
+  "fechaCreacion": {
+    "$date": "2020-06-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23175"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754a"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-07-14T05:00:00.000Z"
+  },
+  "saldo": 620000,
+  "fechaCreacion": {
+    "$date": "2021-09-16T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23176"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754b"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-04-05T05:00:00.000Z"
+  },
+  "saldo": 5400000,
+  "fechaCreacion": {
+    "$date": "2022-10-07T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dec9f50d4d43c23177"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754c"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-01-15T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2021-04-12T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c23178"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754d"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-08-30T05:00:00.000Z"
+  },
+  "saldo": 880000,
+  "fechaCreacion": {
+    "$date": "2020-07-24T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c23179"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754e"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-02-08T05:00:00.000Z"
+  },
+  "saldo": 1100000,
+  "fechaCreacion": {
+    "$date": "2022-05-04T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c2317a"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f025bfa47a66f2754f"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-11-20T05:00:00.000Z"
+  },
+  "saldo": 4700000,
+  "fechaCreacion": {
+    "$date": "2021-06-17T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c2317b"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27550"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-10-29T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-05-15T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c2317c"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27551"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-09-23T05:00:00.000Z"
+  },
+  "saldo": 3300000,
+  "fechaCreacion": {
+    "$date": "2022-03-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c2317d"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27552"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-12-11T05:00:00.000Z"
+  },
+  "saldo": 900000,
+  "fechaCreacion": {
+    "$date": "2020-08-25T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107dfc9f50d4d43c2317e"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27553"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-03-02T05:00:00.000Z"
+  },
+  "saldo": 7500000,
+  "fechaCreacion": {
+    "$date": "2021-07-06T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c2317f"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27554"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-06-18T05:00:00.000Z"
+  },
+  "saldo": 1500000,
+  "fechaCreacion": {
+    "$date": "2021-02-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c23180"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f125bfa47a66f27555"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-12-27T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-03-28T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c23181"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27556"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-01-07T05:00:00.000Z"
+  },
+  "saldo": 3100000,
+  "fechaCreacion": {
+    "$date": "2020-11-13T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c23182"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27557"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-05-12T05:00:00.000Z"
+  },
+  "saldo": 490000,
+  "fechaCreacion": {
+    "$date": "2020-09-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c23183"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27558"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-20T05:00:00.000Z"
+  },
+  "saldo": 200000,
+  "fechaCreacion": {
+    "$date": "2021-10-01T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c23184"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f27559"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-07-15T05:00:00.000Z"
+  },
+  "saldo": 2800000,
+  "fechaCreacion": {
+    "$date": "2020-05-03T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e0c9f50d4d43c23185"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755a"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-03-06T05:00:00.000Z"
+  },
+  "saldo": 5000000,
+  "fechaCreacion": {
+    "$date": "2021-08-24T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c23186"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755b"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-10-16T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-09-29T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c23187"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755c"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-04-30T05:00:00.000Z"
+  },
+  "saldo": 6000000,
+  "fechaCreacion": {
+    "$date": "2022-12-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c23188"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f225bfa47a66f2755d"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-05-25T05:00:00.000Z"
+  },
+  "saldo": 400000,
+  "fechaCreacion": {
+    "$date": "2020-02-12T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c23189"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f2755e"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-09-19T05:00:00.000Z"
+  },
+  "saldo": 770000,
+  "fechaCreacion": {
+    "$date": "2020-06-30T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c2318a"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f2755f"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-24T05:00:00.000Z"
+  },
+  "saldo": 4500000,
+  "fechaCreacion": {
+    "$date": "2021-11-08T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c2318b"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27560"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-04-14T05:00:00.000Z"
+  },
+  "saldo": 3400000,
+  "fechaCreacion": {
+    "$date": "2021-01-17T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e1c9f50d4d43c2318c"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27561"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-07-01T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-06-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c2318d"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27562"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-03-23T05:00:00.000Z"
+  },
+  "saldo": 230000,
+  "fechaCreacion": {
+    "$date": "2020-12-15T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c2318e"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f325bfa47a66f27563"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-10-29T05:00:00.000Z"
+  },
+  "saldo": 1900000,
+  "fechaCreacion": {
+    "$date": "2020-03-06T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c2318f"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27564"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-12-04T05:00:00.000Z"
+  },
+  "saldo": 820000,
+  "fechaCreacion": {
+    "$date": "2021-07-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c23190"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27565"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-09-18T05:00:00.000Z"
+  },
+  "saldo": 3200000,
+  "fechaCreacion": {
+    "$date": "2020-08-27T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c23191"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27566"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-06-20T05:00:00.000Z"
+  },
+  "saldo": 270000,
+  "fechaCreacion": {
+    "$date": "2021-09-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c23192"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27567"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-08-03T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-11-11T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c23193"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27568"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-09T05:00:00.000Z"
+  },
+  "saldo": 7800000,
+  "fechaCreacion": {
+    "$date": "2023-04-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c23194"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f425bfa47a66f27569"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-10-08T05:00:00.000Z"
+  },
+  "saldo": 110000,
+  "fechaCreacion": {
+    "$date": "2021-06-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e2c9f50d4d43c23195"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756a"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-11-01T05:00:00.000Z"
+  },
+  "saldo": 6600000,
+  "fechaCreacion": {
+    "$date": "2022-07-13T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c23196"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756b"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-12-25T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-02T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c23197"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756c"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-01-11T05:00:00.000Z"
+  },
+  "saldo": 570000,
+  "fechaCreacion": {
+    "$date": "2022-11-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c23198"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756d"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-05-26T05:00:00.000Z"
+  },
+  "saldo": 2900000,
+  "fechaCreacion": {
+    "$date": "2021-03-14T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c23199"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756e"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-08-12T05:00:00.000Z"
+  },
+  "saldo": 3500000,
+  "fechaCreacion": {
+    "$date": "2021-12-30T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c2319a"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f525bfa47a66f2756f"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-07-17T05:00:00.000Z"
+  },
+  "saldo": 900000,
+  "fechaCreacion": {
+    "$date": "2020-04-21T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c2319b"
+  },
+  "idUsuario": {
+    "$oid": "6650e6f925bfa47a66f2758c"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-03-25T05:00:00.000Z"
+  },
+  "saldo": 9100000,
+  "fechaCreacion": {
+    "$date": "2020-08-15T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c2319c"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f2758d"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-07-07T05:00:00.000Z"
+  },
+  "saldo": 720000,
+  "fechaCreacion": {
+    "$date": "2022-01-13T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e3c9f50d4d43c2319d"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f2758e"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-10-20T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-09-03T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e4c9f50d4d43c2319e"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f2758f"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-09-03T05:00:00.000Z"
+  },
+  "saldo": 180000,
+  "fechaCreacion": {
+    "$date": "2021-07-28T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e4c9f50d4d43c2319f"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f27590"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-02T05:00:00.000Z"
+  },
+  "saldo": 3800000,
+  "fechaCreacion": {
+    "$date": "2023-02-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e4c9f50d4d43c231a0"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f27591"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-04-26T05:00:00.000Z"
+  },
+  "saldo": 430000,
+  "fechaCreacion": {
+    "$date": "2020-01-18T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e4c9f50d4d43c231a1"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f27592"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-12-15T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-03-12T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e4c9f50d4d43c231a2"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f27593"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-12-11T05:00:00.000Z"
+  },
+  "saldo": 7600000,
+  "fechaCreacion": {
+    "$date": "2021-02-08T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e4c9f50d4d43c231a3"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fa25bfa47a66f27594"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-10-09T05:00:00.000Z"
+  },
+  "saldo": 920000,
+  "fechaCreacion": {
+    "$date": "2020-10-02T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231a4"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f27595"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-05-12T05:00:00.000Z"
+  },
+  "saldo": 8700000,
+  "fechaCreacion": {
+    "$date": "2020-06-20T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231a5"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f27596"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-02-23T05:00:00.000Z"
+  },
+  "saldo": 3900000,
+  "fechaCreacion": {
+    "$date": "2022-07-08T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231a6"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f27597"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-08-04T05:00:00.000Z"
+  },
+  "saldo": 340000,
+  "fechaCreacion": {
+    "$date": "2021-04-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231a7"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f27598"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-05-01T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-02-05T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231a8"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f27599"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-01-17T05:00:00.000Z"
+  },
+  "saldo": 8200000,
+  "fechaCreacion": {
+    "$date": "2021-08-22T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231a9"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f2759a"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-11-29T05:00:00.000Z"
+  },
+  "saldo": 270000,
+  "fechaCreacion": {
+    "$date": "2020-09-25T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231aa"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f2759b"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-04-15T05:00:00.000Z"
+  },
+  "saldo": 1900000,
+  "fechaCreacion": {
+    "$date": "2023-03-21T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e5c9f50d4d43c231ab"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fb25bfa47a66f2759c"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-07-18T05:00:00.000Z"
+  },
+  "saldo": 5800000,
+  "fechaCreacion": {
+    "$date": "2020-08-07T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231ac"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fc25bfa47a66f2759d"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-02-28T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-01-04T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231ad"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fc25bfa47a66f2759e"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-07-04T05:00:00.000Z"
+  },
+  "saldo": 930000,
+  "fechaCreacion": {
+    "$date": "2020-04-15T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231ae"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fc25bfa47a66f2759f"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-10-25T05:00:00.000Z"
+  },
+  "saldo": 3600000,
+  "fechaCreacion": {
+    "$date": "2022-09-09T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231af"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fc25bfa47a66f275a0"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-01-30T05:00:00.000Z"
+  },
+  "saldo": 280000,
+  "fechaCreacion": {
+    "$date": "2020-10-08T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231b0"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a1"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "CERRADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-03-17T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-06-19T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231b1"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a2"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2024-05-11T05:00:00.000Z"
+  },
+  "saldo": 7700000,
+  "fechaCreacion": {
+    "$date": "2023-02-22T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e6c9f50d4d43c231b2"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a3"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-04-28T05:00:00.000Z"
+  },
+  "saldo": 660000,
+  "fechaCreacion": {
+    "$date": "2020-11-07T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e7c9f50d4d43c231b3"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a4"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2023-12-06T05:00:00.000Z"
+  },
+  "saldo": 6100000,
+  "fechaCreacion": {
+    "$date": "2022-12-18T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e7c9f50d4d43c231b4"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a5"
+  },
+  "tipoCuenta": "CORRIENTE",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2021-10-04T05:00:00.000Z"
+  },
+  "saldo": 430000,
+  "fechaCreacion": {
+    "$date": "2020-09-10T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e7c9f50d4d43c231b5"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a6"
+  },
+  "tipoCuenta": "AFC",
+  "estadoCuenta": "DESACTIVADA",
+  "fechaUltimaTransaccion": {
+    "$date": "2020-03-12T05:00:00.000Z"
+  },
+  "saldo": 0,
+  "fechaCreacion": {
+    "$date": "2020-01-02T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+},
+{
+  "_id": {
+    "$oid": "665107e7c9f50d4d43c231b6"
+  },
+  "idUsuario": {
+    "$oid": "6650e6fd25bfa47a66f275a7"
+  },
+  "tipoCuenta": "AHORROS",
+  "estadoCuenta": "ACTIVA",
+  "fechaUltimaTransaccion": {
+    "$date": "2022-08-25T05:00:00.000Z"
+  },
+  "saldo": 2500000,
+  "fechaCreacion": {
+    "$date": "2021-05-11T05:00:00.000Z"
+  },
+  "_class": "com.example.prueba.modelo.Cuenta"
+}]

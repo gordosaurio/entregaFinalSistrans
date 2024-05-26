@@ -1,0 +1,1368 @@
+[{
+  "_id": {
+    "$oid": "6648ee370598b956e7269c5f"
+  },
+  "nombre": "cajero Uniandes",
+  "tipoPuntoAtencion": "DIGITAL",
+  "locacion": "centro Bogota",
+  "horarioApertura": "08:40",
+  "horarioCierre": "18:40",
+  "idOficina": {
+    "$oid": "6648ee360598b956e7269c5e"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "66493a4be0c54e311bf6534c"
+  },
+  "nombre": "cajero 001",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "123 Main St",
+  "horarioApertura": "09:00 AM",
+  "horarioCierre": "05:00 PM",
+  "idOficina": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  }
+},
+{
+  "_id": {
+    "$oid": "66493a4be0c54e311bf6534f"
+  },
+  "nombre": "mod1",
+  "tipoPuntoAtencion": "DIGITAL",
+  "locacion": "mod1",
+  "horarioApertura": "mod1",
+  "horarioCierre": "mod1",
+  "idOficina": {
+    "$oid": "66492c81e0c54e311bf65333"
+  }
+},
+{
+  "_id": {
+    "$oid": "66493a4be0c54e311bf65350"
+  },
+  "nombre": "cajero automatico 01",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "654 Pine St",
+  "horarioApertura": "09:00 AM",
+  "horarioCierre": "05:00 PM",
+  "idOficina": {
+    "$oid": "66492c81e0c54e311bf65334"
+  }
+},
+{
+  "_id": {
+    "$oid": "66493a4be0c54e311bf65352"
+  },
+  "nombre": "Cajero 003",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "321 Oak St",
+  "horarioApertura": "09:00 AM",
+  "horarioCierre": "05:00 PM",
+  "idOficina": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  }
+},
+{
+  "_id": {
+    "$oid": "6650fa6f48c15e078f0881bf"
+  },
+  "nombre": "Cajero Automático Plaza Central",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Plaza Central, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "66492c81e0c54e311bf65333"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c0"
+  },
+  "nombre": "Autoservicio BancAndes 1",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Avenida Chile, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "66492c81e0c54e311bf65334"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c1"
+  },
+  "nombre": "Atención Personalizada Norte",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Unicentro, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "66492c81e0c54e311bf65335"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c2"
+  },
+  "nombre": "Cajero Automático Gran Estación",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Gran Estación, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6649352821dab82f58a660ec"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c3"
+  },
+  "nombre": "Autoservicio BancAndes 2",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 72, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "664a405bab9291010c625207"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c4"
+  },
+  "nombre": "Atención Personalizada Sur",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Andino, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a06befd01af3ae0db4"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c5"
+  },
+  "nombre": "Cajero Automático Cedritos",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Cedritos, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a16befd01af3ae0db5"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7048c15e078f0881c6"
+  },
+  "nombre": "Autoservicio BancAndes 3",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 100, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a16befd01af3ae0db6"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7148c15e078f0881c7"
+  },
+  "nombre": "Atención Personalizada Este",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Santafé, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a16befd01af3ae0db7"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7148c15e078f0881c8"
+  },
+  "nombre": "Cajero Automático Suba",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Suba, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a16befd01af3ae0db8"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7148c15e078f0881c9"
+  },
+  "nombre": "Autoservicio BancAndes 4",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 19, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a16befd01af3ae0db9"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7148c15e078f0881ca"
+  },
+  "nombre": "Atención Personalizada Oeste",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Titan Plaza, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a16befd01af3ae0dba"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7148c15e078f0881cb"
+  },
+  "nombre": "Cajero Automático Usaquén",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Usaquén, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dbb"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7148c15e078f0881cc"
+  },
+  "nombre": "Autoservicio BancAndes 5",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 26, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dbc"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881cd"
+  },
+  "nombre": "Atención Personalizada Kennedy",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Plaza de las Américas, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dbd"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881ce"
+  },
+  "nombre": "Cajero Automático Fontibón",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Fontibón, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dbe"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881cf"
+  },
+  "nombre": "Autoservicio BancAndes 6",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 13, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dbf"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881d0"
+  },
+  "nombre": "Atención Personalizada Engativá",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Portal 80, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dc0"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881d1"
+  },
+  "nombre": "Cajero Automático Bosa",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Bosa, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a26befd01af3ae0dc1"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881d2"
+  },
+  "nombre": "Autoservicio BancAndes 7",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 170, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc2"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7248c15e078f0881d3"
+  },
+  "nombre": "Atención Personalizada Tunal",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Tunal, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc3"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7348c15e078f0881d4"
+  },
+  "nombre": "Cajero Automático Teusaquillo",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Teusaquillo, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc4"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7348c15e078f0881d5"
+  },
+  "nombre": "Autoservicio BancAndes 8",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 72, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc5"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7348c15e078f0881d6"
+  },
+  "nombre": "Atención Personalizada Candelaria",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Candelaria, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc6"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7348c15e078f0881d7"
+  },
+  "nombre": "Cajero Automático San Cristóbal",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "San Cristóbal, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc7"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7348c15e078f0881d8"
+  },
+  "nombre": "Autoservicio BancAndes 9",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 100, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a36befd01af3ae0dc8"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7348c15e078f0881d9"
+  },
+  "nombre": "Atención Personalizada Santa Fe",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Santa Fe, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dc9"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881da"
+  },
+  "nombre": "Cajero Automático Antonio Nariño",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Antonio Nariño, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dca"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881db"
+  },
+  "nombre": "Autoservicio BancAndes 10",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 170, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dcb"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881dc"
+  },
+  "nombre": "Atención Personalizada Rafael Uribe",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Rafael Uribe, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dcc"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881dd"
+  },
+  "nombre": "Cajero Automático Usme",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Usme, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dcd"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881de"
+  },
+  "nombre": "Autoservicio BancAndes 11",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 50, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dce"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881df"
+  },
+  "nombre": "Atención Personalizada Suba",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Subazar, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dcf"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881e0"
+  },
+  "nombre": "Cajero Automático Engativá",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Engativá, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a46befd01af3ae0dd0"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7448c15e078f0881e1"
+  },
+  "nombre": "Autoservicio BancAndes 12",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 30, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd1"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e2"
+  },
+  "nombre": "Atención Personalizada Fontibón",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Hayuelos, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd2"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e3"
+  },
+  "nombre": "Cajero Automático Soacha",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Soacha, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd3"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e4"
+  },
+  "nombre": "Autoservicio BancAndes 13",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 7, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd4"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e5"
+  },
+  "nombre": "Atención Personalizada Chía",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Fontanar, Chía",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd5"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e6"
+  },
+  "nombre": "Cajero Automático Zipaquirá",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Zipaquirá, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd6"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e7"
+  },
+  "nombre": "Autoservicio BancAndes 14",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 8, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a56befd01af3ae0dd7"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7548c15e078f0881e8"
+  },
+  "nombre": "Atención Personalizada Facatativá",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Nova Plaza, Facatativá",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a66befd01af3ae0dd8"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881e9"
+  },
+  "nombre": "Cajero Automático Madrid",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Madrid, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a66befd01af3ae0dd9"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881ea"
+  },
+  "nombre": "Autoservicio BancAndes 15",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 45, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a66befd01af3ae0dda"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881eb"
+  },
+  "nombre": "Atención Personalizada Mosquera",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial El Eden, Mosquera",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a66befd01af3ae0ddb"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881ec"
+  },
+  "nombre": "Cajero Automático Funza",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Funza, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a66befd01af3ae0ddc"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881ed"
+  },
+  "nombre": "Autoservicio BancAndes 16",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 11, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a66befd01af3ae0ddd"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881ee"
+  },
+  "nombre": "Atención Personalizada Cajicá",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial El Portal, Cajicá",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a76befd01af3ae0ddf"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881ef"
+  },
+  "nombre": "Cajero Automático Cota",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Cota, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a76befd01af3ae0de0"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7648c15e078f0881f0"
+  },
+  "nombre": "Autoservicio BancAndes 17",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 80, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a76befd01af3ae0de1"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7748c15e078f0881f1"
+  },
+  "nombre": "Atención Personalizada La Calera",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Mirandela, La Calera",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a76befd01af3ae0de2"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7748c15e078f0881f2"
+  },
+  "nombre": "Cajero Automático Sopó",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Sopó, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a76befd01af3ae0de3"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7748c15e078f0881f3"
+  },
+  "nombre": "Autoservicio BancAndes 18",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 13, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a76befd01af3ae0de4"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7748c15e078f0881f4"
+  },
+  "nombre": "Atención Personalizada Tocancipá",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial La Sabana, Tocancipá",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a86befd01af3ae0de6"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7748c15e078f0881f5"
+  },
+  "nombre": "Cajero Automático Tenjo",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Tenjo, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a86befd01af3ae0de7"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7748c15e078f0881f6"
+  },
+  "nombre": "Autoservicio BancAndes 19",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 116, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a86befd01af3ae0de8"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881f7"
+  },
+  "nombre": "Atención Personalizada Tabio",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial El Bosque, Tabio",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a86befd01af3ae0de9"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881f8"
+  },
+  "nombre": "Cajero Automático Guasca",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Guasca, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a86befd01af3ae0dea"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881f9"
+  },
+  "nombre": "Autoservicio BancAndes 20",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 15, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a86befd01af3ae0deb"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881fa"
+  },
+  "nombre": "Atención Personalizada Cogua",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Los Andes, Cogua",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0ded"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881fb"
+  },
+  "nombre": "Cajero Automático Sibaté",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Sibaté, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0dee"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881fc"
+  },
+  "nombre": "Autoservicio BancAndes 21",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 45, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0def"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7848c15e078f0881fd"
+  },
+  "nombre": "Atención Personalizada Suba",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Centro Suba, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0df0"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f0881fe"
+  },
+  "nombre": "Cajero Automático Chapinero",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Chapinero, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0df1"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f0881ff"
+  },
+  "nombre": "Autoservicio BancAndes 22",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 30, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0df2"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f088200"
+  },
+  "nombre": "Atención Personalizada Kennedy",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Calima, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3a96befd01af3ae0df3"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f088201"
+  },
+  "nombre": "Cajero Automático Engativá",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Engativá, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3aa6befd01af3ae0df4"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f088202"
+  },
+  "nombre": "Autoservicio BancAndes 23",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 72, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3aa6befd01af3ae0df5"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f088203"
+  },
+  "nombre": "Atención Personalizada Candelaria",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Salitre Plaza, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3aa6befd01af3ae0df6"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7948c15e078f088204"
+  },
+  "nombre": "Cajero Automático San Cristóbal",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "San Cristóbal, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3aa6befd01af3ae0df7"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f088205"
+  },
+  "nombre": "Autoservicio BancAndes 24",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 100, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3aa6befd01af3ae0df8"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f088206"
+  },
+  "nombre": "Atención Personalizada Santa Fe",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Santa Fé, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3aa6befd01af3ae0df9"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f088207"
+  },
+  "nombre": "Cajero Automático Antonio Nariño",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Antonio Nariño, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ab6befd01af3ae0dfb"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f088208"
+  },
+  "nombre": "Autoservicio BancAndes 25",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 26, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ab6befd01af3ae0dfc"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f088209"
+  },
+  "nombre": "Atención Personalizada Rafael Uribe",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Galerías, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ab6befd01af3ae0dfd"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f08820a"
+  },
+  "nombre": "Cajero Automático Usme",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Usme, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ab6befd01af3ae0dfe"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7a48c15e078f08820b"
+  },
+  "nombre": "Autoservicio BancAndes 26",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 11, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ab6befd01af3ae0dff"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f08820c"
+  },
+  "nombre": "Atención Personalizada Suba",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Diver Plaza, Bogota",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ab6befd01af3ae0e00"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f08820d"
+  },
+  "nombre": "Cajero Automático Engativá",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Engativá, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e01"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f08820e"
+  },
+  "nombre": "Autoservicio BancAndes 27",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 7, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e02"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f08820f"
+  },
+  "nombre": "Atención Personalizada Chía",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Centro Chía, Chía",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e03"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f088210"
+  },
+  "nombre": "Cajero Automático Zipaquirá",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Zipaquirá, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e04"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f088211"
+  },
+  "nombre": "Autoservicio BancAndes 28",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 80, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e05"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7b48c15e078f088212"
+  },
+  "nombre": "Atención Personalizada Facatativá",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Facacentro, Facatativá",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e06"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088213"
+  },
+  "nombre": "Cajero Automático Madrid",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Madrid, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e07"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088214"
+  },
+  "nombre": "Autoservicio BancAndes 29",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Calle 13, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ac6befd01af3ae0e08"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088215"
+  },
+  "nombre": "Atención Personalizada Mosquera",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial Mosquicentenario, Mosquera",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ad6befd01af3ae0e09"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088216"
+  },
+  "nombre": "Cajero Automático Funza",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Funza, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ad6befd01af3ae0e0a"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088217"
+  },
+  "nombre": "Autoservicio BancAndes 30",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 19, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ad6befd01af3ae0e0b"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088218"
+  },
+  "nombre": "Atención Personalizada Cajicá",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial El Ancla, Cajicá",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ad6befd01af3ae0e0c"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7c48c15e078f088219"
+  },
+  "nombre": "Cajero Automático Cota",
+  "tipoPuntoAtencion": "CAJERO AUTOMATICO",
+  "locacion": "Cota, Bogota",
+  "horarioApertura": "07:00",
+  "horarioCierre": "23:00",
+  "idOficina": {
+    "$oid": "6650f3ad6befd01af3ae0e0d"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7d48c15e078f08821a"
+  },
+  "nombre": "Autoservicio BancAndes 31",
+  "tipoPuntoAtencion": "AUTOSERVICIO",
+  "locacion": "Carrera 5, Bogota",
+  "horarioApertura": "06:00",
+  "horarioCierre": "22:00",
+  "idOficina": {
+    "$oid": "6650f3ad6befd01af3ae0e0e"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+},
+{
+  "_id": {
+    "$oid": "6650fa7d48c15e078f08821b"
+  },
+  "nombre": "Atención Personalizada La Calera",
+  "tipoPuntoAtencion": "PERSONALIZADA",
+  "locacion": "Centro Comercial La Huerta, La Calera",
+  "horarioApertura": "09:00",
+  "horarioCierre": "18:00",
+  "idOficina": {
+    "$oid": "6650f3ae6befd01af3ae0e0f"
+  },
+  "_class": "com.example.prueba.modelo.PuntoAtencion"
+}]

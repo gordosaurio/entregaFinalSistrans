@@ -1,0 +1,71 @@
+
+db.createCollection("usuario", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["tipoDocumento", "numeroDocumento", "nombre", "direccionFisica", "direccionDigital", "telefono", "codigoPostal", "tipoUsuario", "nacionalidad"],
+         properties: {
+            tipoDocumento: { bsonType: "string" },
+            numeroDocumento: { bsonType: "int" },
+            nombre: { bsonType: "string" },
+            direccionFisica: { bsonType: "string" },
+            direccionDigital: { bsonType: "string" },
+            telefono: { bsonType: "int" },
+            codigoPostal: { bsonType: "int" },
+            tipoUsuario: { bsonType: "string" },
+            nacionalidad: { bsonType: "string" }
+         }
+      }
+   }
+});
+
+db.createCollection("puntoAtencion", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["nombre", "tipoPuntoAtencion", "horarioApertura", "horarioCierre"],
+         properties: {
+            nombre: { bsonType: "string" },
+            tipoPuntoAtencion: { bsonType: "string" },
+            locacion: { bsonType: "string" },
+            horarioApertura: { bsonType: "string" },
+            horarioCierre: { bsonType: "string" },
+           oficina: {bsonType: "string" }
+         }
+      }
+   }
+});
+
+db.createCollection("oficina", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["nombre", "direccion", "numeroPuntosDisponibles", "idGerente"],
+         properties: {
+            nombre: { bsonType: "string" },
+            direccion: { bsonType: "string" },
+            numeroPuntosDisponibles: { bsonType: "int" },
+            idGerente: { bsonType: "string" }
+         }
+      }
+   }
+});
+
+db.createCollection("cuenta", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["idUsuario", "tipoCuenta", "estadoCuenta", "fechaUltimaTransaccion", "saldo", "fechaCreacion"],
+         properties: {
+           idUsuario: {bsonType: "string"},
+            tipoCuenta: { bsonType: "string" },
+            estadoCuenta: { bsonType: "string" },
+            fechaUltimaTransaccion: { bsonType: "date" },
+            saldo: { bsonType: "double" },
+            fechaCreacion: { bsonType: "date" }
+
+         }
+      }
+   }
+});
+

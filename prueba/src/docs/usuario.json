@@ -1,0 +1,3785 @@
+[{
+  "_id": {
+    "$oid": "6648cd7f7538112f97c3d5af"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034589,
+  "nombre": "Pepe Rios",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "ppe@gmail.com",
+  "telefono": 3522596,
+  "codigoPostal": 1212,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6648f944eee82b69156ddf5a"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034589,
+  "nombre": "Daniela Rios",
+  "direccionFisica": "carrera 41#12",
+  "direccionDigital": "dasda@gmail.com",
+  "telefono": 3522596,
+  "codigoPostal": 1212,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6649208444cac055f22317ae"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 132131,
+  "nombre": "Prueba web",
+  "direccionFisica": "Prueba web",
+  "direccionDigital": "Prueba web",
+  "telefono": 1321321,
+  "codigoPostal": 13213,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "Prueba web",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "664925927f14aa3b70750207"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1,
+  "nombre": "PruebaWeb",
+  "direccionFisica": "PruebaWeb",
+  "direccionDigital": "PruebaWeb",
+  "telefono": 13213,
+  "codigoPostal": 1321,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "PruebaWeb",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "66492637a783d505d9bdc111"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1,
+  "nombre": "prueba",
+  "direccionFisica": "prueba",
+  "direccionDigital": "prueba",
+  "telefono": 1321,
+  "codigoPostal": 1213,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "prueba",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf65325"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 123456789,
+  "nombre": "Juan Perez",
+  "direccionFisica": "Calle 123",
+  "direccionDigital": "juanperez@example.com",
+  "telefono": 987654321,
+  "codigoPostal": 54321,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "Colombiano"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf65326"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 987654321,
+  "nombre": "Maria Rodriguez",
+  "direccionFisica": "Avenida 456",
+  "direccionDigital": "mariarodriguez@example.com",
+  "telefono": 123456789,
+  "codigoPostal": 12345,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "Venezolana"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf65327"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 654321987,
+  "nombre": "Luis Gomez",
+  "direccionFisica": "Carrera 789",
+  "direccionDigital": "luisgomez@example.com",
+  "telefono": 456789123,
+  "codigoPostal": 67890,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "Colombiano"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf65328"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 321654987,
+  "nombre": "Ana Torres",
+  "direccionFisica": "Calle 012",
+  "direccionDigital": "anatorres@example.com",
+  "telefono": 789123456,
+  "codigoPostal": 54321,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "Venezolana"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf65329"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 456789123,
+  "nombre": "Pedro Sanchez",
+  "direccionFisica": "Avenida 345",
+  "direccionDigital": "pedrosanchez@example.com",
+  "telefono": 321987654,
+  "codigoPostal": 12345,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "Colombiano"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf6532a"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 789123456,
+  "nombre": "Laura Ramirez",
+  "direccionFisica": "Carrera 678",
+  "direccionDigital": "lauraramirez@example.com",
+  "telefono": 654321987,
+  "codigoPostal": 67890,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "Venezolana"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf6532b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 234567891,
+  "nombre": "Carlos Lopez",
+  "direccionFisica": "Calle 901",
+  "direccionDigital": "carloslopez@example.com",
+  "telefono": 987654321,
+  "codigoPostal": 54321,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "Colombiano"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf6532c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 876543219,
+  "nombre": "Sofia Castro",
+  "direccionFisica": "Avenida 234",
+  "direccionDigital": "sofiacastro@example.com",
+  "telefono": 123456789,
+  "codigoPostal": 12345,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "Venezolana"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf6532d"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 543219876,
+  "nombre": "Diego Hernandez",
+  "direccionFisica": "Carrera 567",
+  "direccionDigital": "diegohernandez@example.com",
+  "telefono": 456789123,
+  "codigoPostal": 67890,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "Colombiano"
+},
+{
+  "_id": {
+    "$oid": "66492bcce0c54e311bf6532e"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 321987654,
+  "nombre": "Carolina Silva",
+  "direccionFisica": "Calle 890",
+  "direccionDigital": "carolinasilva@example.com",
+  "telefono": 789123456,
+  "codigoPostal": 54321,
+  "tipoUsuario": "CLIENTE",
+  "nacionalidad": "Venezolana"
+},
+{
+  "_id": {
+    "$oid": "6650e6ef25bfa47a66f27547"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034589,
+  "nombre": "Juan Perez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "juan.perez1@example.com",
+  "telefono": 3522596,
+  "codigoPostal": 1212,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ef25bfa47a66f27548"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034590,
+  "nombre": "Maria Lopez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "maria.lopez2@example.com",
+  "telefono": 3522597,
+  "codigoPostal": 1213,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "peruano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f27549"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034591,
+  "nombre": "Carlos Sanchez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "carlos.sanchez3@example.com",
+  "telefono": 3522598,
+  "codigoPostal": 1214,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "argentino",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f2754a"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034592,
+  "nombre": "Ana Gomez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "ana.gomez4@example.com",
+  "telefono": 3522599,
+  "codigoPostal": 1215,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "chileno",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f2754b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034593,
+  "nombre": "Luis Fernandez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "luis.fernandez5@example.com",
+  "telefono": 3522600,
+  "codigoPostal": 1216,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "mexicano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f2754c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034594,
+  "nombre": "Sofia Martinez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "sofia.martinez6@example.com",
+  "telefono": 3522601,
+  "codigoPostal": 1217,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f2754d"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034595,
+  "nombre": "Jose Rodriguez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "jose.rodriguez7@example.com",
+  "telefono": 3522602,
+  "codigoPostal": 1218,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f2754e"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034596,
+  "nombre": "Carmen Garcia",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "carmen.garcia8@example.com",
+  "telefono": 3522603,
+  "codigoPostal": 1219,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f025bfa47a66f2754f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034597,
+  "nombre": "Miguel Fernandez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "miguel.fernandez9@example.com",
+  "telefono": 3522604,
+  "codigoPostal": 1220,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f125bfa47a66f27550"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034598,
+  "nombre": "Luisa Torres",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "luisa.torres10@example.com",
+  "telefono": 3522605,
+  "codigoPostal": 1221,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f125bfa47a66f27551"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034599,
+  "nombre": "Fernando Diaz",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "fernando.diaz11@example.com",
+  "telefono": 3522606,
+  "codigoPostal": 1222,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f125bfa47a66f27552"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034600,
+  "nombre": "Laura Martinez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "laura.martinez12@example.com",
+  "telefono": 3522607,
+  "codigoPostal": 1223,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f125bfa47a66f27553"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034601,
+  "nombre": "Jorge Sanchez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "jorge.sanchez13@example.com",
+  "telefono": 3522608,
+  "codigoPostal": 1224,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f125bfa47a66f27554"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034602,
+  "nombre": "Isabel Gomez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "isabel.gomez14@example.com",
+  "telefono": 3522609,
+  "codigoPostal": 1225,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f125bfa47a66f27555"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034603,
+  "nombre": "Pedro Perez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "pedro.perez15@example.com",
+  "telefono": 3522610,
+  "codigoPostal": 1226,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f27556"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034604,
+  "nombre": "Juanita Rios",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "juanita.rios16@example.com",
+  "telefono": 3522611,
+  "codigoPostal": 1227,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f27557"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034605,
+  "nombre": "Antonio Ramirez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "antonio.ramirez17@example.com",
+  "telefono": 3522612,
+  "codigoPostal": 1228,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f27558"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034606,
+  "nombre": "Rosa Martinez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "rosa.martinez18@example.com",
+  "telefono": 3522613,
+  "codigoPostal": 1229,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f27559"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034607,
+  "nombre": "Pablo Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "pablo.gomez19@example.com",
+  "telefono": 3522614,
+  "codigoPostal": 1230,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f2755a"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034608,
+  "nombre": "Marta Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "marta.torres20@example.com",
+  "telefono": 3522615,
+  "codigoPostal": 1231,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f2755b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034609,
+  "nombre": "Sergio Diaz",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "sergio.diaz21@example.com",
+  "telefono": 3522616,
+  "codigoPostal": 1232,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f2755c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034610,
+  "nombre": "Cristina Lopez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "cristina.lopez22@example.com",
+  "telefono": 3522617,
+  "codigoPostal": 1233,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f225bfa47a66f2755d"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034611,
+  "nombre": "David Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "david.sanchez23@example.com",
+  "telefono": 3522618,
+  "codigoPostal": 1234,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f325bfa47a66f2755e"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034612,
+  "nombre": "Esteban Diaz",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "esteban.diaz24@example.com",
+  "telefono": 3522619,
+  "codigoPostal": 1235,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f325bfa47a66f2755f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034613,
+  "nombre": "Carmen Perez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "carmen.perez25@example.com",
+  "telefono": 3522620,
+  "codigoPostal": 1236,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f325bfa47a66f27560"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034614,
+  "nombre": "Mario Gomez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "mario.gomez26@example.com",
+  "telefono": 3522621,
+  "codigoPostal": 1237,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f325bfa47a66f27561"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034615,
+  "nombre": "Ana Fernandez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "ana.fernandez27@example.com",
+  "telefono": 3522622,
+  "codigoPostal": 1238,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f325bfa47a66f27562"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034616,
+  "nombre": "Felipe Martinez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "felipe.martinez28@example.com",
+  "telefono": 3522623,
+  "codigoPostal": 1239,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f325bfa47a66f27563"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034617,
+  "nombre": "Lucia Torres",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "lucia.torres29@example.com",
+  "telefono": 3522624,
+  "codigoPostal": 1240,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f425bfa47a66f27564"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034618,
+  "nombre": "Emilio Lopez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "emilio.lopez30@example.com",
+  "telefono": 3522625,
+  "codigoPostal": 1241,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f425bfa47a66f27565"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034619,
+  "nombre": "Victoria Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "victoria.sanchez31@example.com",
+  "telefono": 3522626,
+  "codigoPostal": 1242,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f425bfa47a66f27566"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034620,
+  "nombre": "Hector Diaz",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "hector.diaz32@example.com",
+  "telefono": 3522627,
+  "codigoPostal": 1243,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f425bfa47a66f27567"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034621,
+  "nombre": "Elena Garcia",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "elena.garcia33@example.com",
+  "telefono": 3522628,
+  "codigoPostal": 1244,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f425bfa47a66f27568"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034622,
+  "nombre": "Manuel Fernandez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "manuel.fernandez34@example.com",
+  "telefono": 3522629,
+  "codigoPostal": 1245,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f425bfa47a66f27569"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034623,
+  "nombre": "Patricia Martinez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "patricia.martinez35@example.com",
+  "telefono": 3522630,
+  "codigoPostal": 1246,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f2756a"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034624,
+  "nombre": "Francisco Lopez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "francisco.lopez36@example.com",
+  "telefono": 3522631,
+  "codigoPostal": 1247,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f2756b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034625,
+  "nombre": "Mariana Torres",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "mariana.torres37@example.com",
+  "telefono": 3522632,
+  "codigoPostal": 1248,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f2756c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034626,
+  "nombre": "Rafael Sanchez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "rafael.sanchez38@example.com",
+  "telefono": 3522633,
+  "codigoPostal": 1249,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f2756d"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034627,
+  "nombre": "Gabriela Diaz",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "gabriela.diaz39@example.com",
+  "telefono": 3522634,
+  "codigoPostal": 1250,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f2756e"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034628,
+  "nombre": "Josefina Rios",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "josefina.rios40@example.com",
+  "telefono": 3522635,
+  "codigoPostal": 1251,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f2756f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034629,
+  "nombre": "Eduardo Ramirez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "eduardo.ramirez41@example.com",
+  "telefono": 3522636,
+  "codigoPostal": 1252,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f525bfa47a66f27570"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034630,
+  "nombre": "Natalia Martinez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "natalia.martinez42@example.com",
+  "telefono": 3522637,
+  "codigoPostal": 1253,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27571"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034631,
+  "nombre": "Enrique Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "enrique.gomez43@example.com",
+  "telefono": 3522638,
+  "codigoPostal": 1254,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27572"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034632,
+  "nombre": "Sandra Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "sandra.torres44@example.com",
+  "telefono": 3522639,
+  "codigoPostal": 1255,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27573"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034633,
+  "nombre": "Victor Diaz",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "victor.diaz45@example.com",
+  "telefono": 3522640,
+  "codigoPostal": 1256,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27574"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034634,
+  "nombre": "Lorena Lopez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "lorena.lopez46@example.com",
+  "telefono": 3522641,
+  "codigoPostal": 1257,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27575"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034635,
+  "nombre": "Daniela Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "daniela.sanchez47@example.com",
+  "telefono": 3522642,
+  "codigoPostal": 1258,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27576"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034636,
+  "nombre": "Ricardo Fernandez",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "ricardo.fernandez48@example.com",
+  "telefono": 3522643,
+  "codigoPostal": 1259,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f625bfa47a66f27577"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034637,
+  "nombre": "Alicia Perez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "alicia.perez49@example.com",
+  "telefono": 3522644,
+  "codigoPostal": 1260,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f27578"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034638,
+  "nombre": "Roberto Gomez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "roberto.gomez50@example.com",
+  "telefono": 3522645,
+  "codigoPostal": 1261,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f27579"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034639,
+  "nombre": "Miriam Torres",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "miriam.torres51@example.com",
+  "telefono": 3522646,
+  "codigoPostal": 1262,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f2757a"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034640,
+  "nombre": "Martin Diaz",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "martin.diaz52@example.com",
+  "telefono": 3522647,
+  "codigoPostal": 1263,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f2757b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034641,
+  "nombre": "Liliana Lopez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "liliana.lopez53@example.com",
+  "telefono": 3522648,
+  "codigoPostal": 1264,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f2757c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034642,
+  "nombre": "Carlos Gomez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "carlos.gomez54@example.com",
+  "telefono": 3522649,
+  "codigoPostal": 1265,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f2757d"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034643,
+  "nombre": "Elena Martinez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "elena.martinez55@example.com",
+  "telefono": 3522650,
+  "codigoPostal": 1266,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f725bfa47a66f2757e"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034644,
+  "nombre": "Luis Sanchez",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "luis.sanchez56@example.com",
+  "telefono": 3522651,
+  "codigoPostal": 1267,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f2757f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034645,
+  "nombre": "Jorge Fernandez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "jorge.fernandez57@example.com",
+  "telefono": 3522652,
+  "codigoPostal": 1268,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f27580"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034646,
+  "nombre": "Veronica Gomez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "veronica.gomez58@example.com",
+  "telefono": 3522653,
+  "codigoPostal": 1269,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f27581"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034647,
+  "nombre": "Gabriel Torres",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "gabriel.torres59@example.com",
+  "telefono": 3522654,
+  "codigoPostal": 1270,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f27582"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034648,
+  "nombre": "Rosa Martinez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "rosa.martinez60@example.com",
+  "telefono": 3522655,
+  "codigoPostal": 1271,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f27583"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034649,
+  "nombre": "Carlos Perez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "carlos.perez61@example.com",
+  "telefono": 3522656,
+  "codigoPostal": 1272,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f27584"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034650,
+  "nombre": "Fernando Gomez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "fernando.gomez62@example.com",
+  "telefono": 3522657,
+  "codigoPostal": 1273,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f825bfa47a66f27585"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034651,
+  "nombre": "Raquel Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "raquel.sanchez63@example.com",
+  "telefono": 3522658,
+  "codigoPostal": 1274,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f27586"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034652,
+  "nombre": "Lucia Torres",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "lucia.torres64@example.com",
+  "telefono": 3522659,
+  "codigoPostal": 1275,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f27587"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034653,
+  "nombre": "Miguel Diaz",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "miguel.diaz65@example.com",
+  "telefono": 3522660,
+  "codigoPostal": 1276,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f27588"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034654,
+  "nombre": "Adriana Lopez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "adriana.lopez66@example.com",
+  "telefono": 3522661,
+  "codigoPostal": 1277,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f27589"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034655,
+  "nombre": "Emilio Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "emilio.gomez67@example.com",
+  "telefono": 3522662,
+  "codigoPostal": 1278,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f2758a"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034656,
+  "nombre": "Paula Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "paula.torres68@example.com",
+  "telefono": 3522663,
+  "codigoPostal": 1279,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f2758b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034657,
+  "nombre": "Andres Martinez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "andres.martinez69@example.com",
+  "telefono": 3522664,
+  "codigoPostal": 1280,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6f925bfa47a66f2758c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034658,
+  "nombre": "Lorena Sanchez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "lorena.sanchez70@example.com",
+  "telefono": 3522665,
+  "codigoPostal": 1281,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f2758d"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034659,
+  "nombre": "Pedro Fernandez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "pedro.fernandez71@example.com",
+  "telefono": 3522666,
+  "codigoPostal": 1282,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f2758e"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034660,
+  "nombre": "Marcela Diaz",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "marcela.diaz72@example.com",
+  "telefono": 3522667,
+  "codigoPostal": 1283,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f2758f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034661,
+  "nombre": "Elena Lopez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "elena.lopez73@example.com",
+  "telefono": 3522668,
+  "codigoPostal": 1284,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f27590"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034662,
+  "nombre": "Raul Sanchez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "raul.sanchez74@example.com",
+  "telefono": 3522669,
+  "codigoPostal": 1285,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f27591"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034663,
+  "nombre": "Julia Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "julia.gomez75@example.com",
+  "telefono": 3522670,
+  "codigoPostal": 1286,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f27592"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034664,
+  "nombre": "Mario Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "mario.torres76@example.com",
+  "telefono": 3522671,
+  "codigoPostal": 1287,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f27593"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034665,
+  "nombre": "Manuel Diaz",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "manuel.diaz77@example.com",
+  "telefono": 3522672,
+  "codigoPostal": 1288,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fa25bfa47a66f27594"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034666,
+  "nombre": "Gabriela Martinez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "gabriela.martinez78@example.com",
+  "telefono": 3522673,
+  "codigoPostal": 1289,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f27595"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034667,
+  "nombre": "Francisco Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "francisco.sanchez79@example.com",
+  "telefono": 3522674,
+  "codigoPostal": 1290,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f27596"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034668,
+  "nombre": "Claudia Gomez",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "claudia.gomez80@example.com",
+  "telefono": 3522675,
+  "codigoPostal": 1291,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f27597"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034669,
+  "nombre": "Daniel Torres",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "daniel.torres81@example.com",
+  "telefono": 3522676,
+  "codigoPostal": 1292,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f27598"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034670,
+  "nombre": "Laura Fernandez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "laura.fernandez82@example.com",
+  "telefono": 3522677,
+  "codigoPostal": 1293,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f27599"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034671,
+  "nombre": "Cesar Diaz",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "cesar.diaz83@example.com",
+  "telefono": 3522678,
+  "codigoPostal": 1294,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f2759a"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034672,
+  "nombre": "Monica Sanchez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "monica.sanchez84@example.com",
+  "telefono": 3522679,
+  "codigoPostal": 1295,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f2759b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034673,
+  "nombre": "Adrian Gomez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "adrian.gomez85@example.com",
+  "telefono": 3522680,
+  "codigoPostal": 1296,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fb25bfa47a66f2759c"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034674,
+  "nombre": "Natalia Torres",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "natalia.torres86@example.com",
+  "telefono": 3522681,
+  "codigoPostal": 1297,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fc25bfa47a66f2759d"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034675,
+  "nombre": "Miguel Martinez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "miguel.martinez87@example.com",
+  "telefono": 3522682,
+  "codigoPostal": 1298,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fc25bfa47a66f2759e"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034676,
+  "nombre": "Angela Fernandez",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "angela.fernandez88@example.com",
+  "telefono": 3522683,
+  "codigoPostal": 1299,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fc25bfa47a66f2759f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034677,
+  "nombre": "Ricardo Lopez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "ricardo.lopez89@example.com",
+  "telefono": 3522684,
+  "codigoPostal": 1300,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fc25bfa47a66f275a0"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034678,
+  "nombre": "Felipe Sanchez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "felipe.sanchez90@example.com",
+  "telefono": 3522685,
+  "codigoPostal": 1301,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fc25bfa47a66f275a1"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034679,
+  "nombre": "Andrea Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "andrea.gomez91@example.com",
+  "telefono": 3522686,
+  "codigoPostal": 1302,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a2"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034680,
+  "nombre": "Luis Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "luis.torres92@example.com",
+  "telefono": 3522687,
+  "codigoPostal": 1303,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034681,
+  "nombre": "Roberto Diaz",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "roberto.diaz93@example.com",
+  "telefono": 3522688,
+  "codigoPostal": 1304,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a4"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034682,
+  "nombre": "Julia Lopez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "julia.lopez94@example.com",
+  "telefono": 3522689,
+  "codigoPostal": 1305,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a5"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034683,
+  "nombre": "Francisco Martinez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "francisco.martinez95@example.com",
+  "telefono": 3522690,
+  "codigoPostal": 1306,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a6"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034684,
+  "nombre": "Clara Fernandez",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "clara.fernandez96@example.com",
+  "telefono": 3522691,
+  "codigoPostal": 1307,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034685,
+  "nombre": "Carlos Sanchez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "carlos.sanchez97@example.com",
+  "telefono": 3522692,
+  "codigoPostal": 1308,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fd25bfa47a66f275a8"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034686,
+  "nombre": "Daniela Lopez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "daniela.lopez98@example.com",
+  "telefono": 3522693,
+  "codigoPostal": 1309,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275a9"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034687,
+  "nombre": "Miguel Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "miguel.gomez99@example.com",
+  "telefono": 3522694,
+  "codigoPostal": 1310,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275aa"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034688,
+  "nombre": "Ana Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "ana.torres100@example.com",
+  "telefono": 3522695,
+  "codigoPostal": 1311,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275ab"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034689,
+  "nombre": "Luis Fernandez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "luis.fernandez101@example.com",
+  "telefono": 3522696,
+  "codigoPostal": 1312,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275ac"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034690,
+  "nombre": "Sofia Martinez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "sofia.martinez102@example.com",
+  "telefono": 3522697,
+  "codigoPostal": 1313,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275ad"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034691,
+  "nombre": "Jose Rodriguez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "jose.rodriguez103@example.com",
+  "telefono": 3522698,
+  "codigoPostal": 1314,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275ae"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034692,
+  "nombre": "Carmen Garcia",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "carmen.garcia104@example.com",
+  "telefono": 3522699,
+  "codigoPostal": 1315,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275af"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034693,
+  "nombre": "Miguel Fernandez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "miguel.fernandez105@example.com",
+  "telefono": 3522700,
+  "codigoPostal": 1316,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6fe25bfa47a66f275b0"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034694,
+  "nombre": "Luisa Torres",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "luisa.torres106@example.com",
+  "telefono": 3522701,
+  "codigoPostal": 1317,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b1"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034695,
+  "nombre": "Fernando Diaz",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "fernando.diaz107@example.com",
+  "telefono": 3522702,
+  "codigoPostal": 1318,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b2"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034696,
+  "nombre": "Laura Martinez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "laura.martinez108@example.com",
+  "telefono": 3522703,
+  "codigoPostal": 1319,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034697,
+  "nombre": "Jorge Sanchez",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "jorge.sanchez109@example.com",
+  "telefono": 3522704,
+  "codigoPostal": 1320,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b4"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034698,
+  "nombre": "Isabel Gomez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "isabel.gomez110@example.com",
+  "telefono": 3522705,
+  "codigoPostal": 1321,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b5"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034699,
+  "nombre": "Pedro Perez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "pedro.perez111@example.com",
+  "telefono": 3522706,
+  "codigoPostal": 1322,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b6"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034700,
+  "nombre": "Juanita Rios",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "juanita.rios112@example.com",
+  "telefono": 3522707,
+  "codigoPostal": 1323,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e6ff25bfa47a66f275b7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034701,
+  "nombre": "Antonio Ramirez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "antonio.ramirez113@example.com",
+  "telefono": 3522708,
+  "codigoPostal": 1324,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275b8"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034702,
+  "nombre": "Rosa Martinez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "rosa.martinez114@example.com",
+  "telefono": 3522709,
+  "codigoPostal": 1325,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275b9"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034703,
+  "nombre": "Pablo Gomez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "pablo.gomez115@example.com",
+  "telefono": 3522710,
+  "codigoPostal": 1326,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275ba"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034704,
+  "nombre": "Marta Torres",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "marta.torres116@example.com",
+  "telefono": 3522711,
+  "codigoPostal": 1327,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275bb"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034705,
+  "nombre": "Sergio Diaz",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "sergio.diaz117@example.com",
+  "telefono": 3522712,
+  "codigoPostal": 1328,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275bc"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034706,
+  "nombre": "Cristina Lopez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "cristina.lopez118@example.com",
+  "telefono": 3522713,
+  "codigoPostal": 1329,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275bd"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034707,
+  "nombre": "David Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "david.sanchez119@example.com",
+  "telefono": 3522714,
+  "codigoPostal": 1330,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70025bfa47a66f275be"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034708,
+  "nombre": "Esteban Diaz",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "esteban.diaz120@example.com",
+  "telefono": 3522715,
+  "codigoPostal": 1331,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275bf"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034709,
+  "nombre": "Carmen Perez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "carmen.perez121@example.com",
+  "telefono": 3522716,
+  "codigoPostal": 1332,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c0"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034710,
+  "nombre": "Mario Gomez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "mario.gomez122@example.com",
+  "telefono": 3522717,
+  "codigoPostal": 1333,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c1"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034711,
+  "nombre": "Ana Fernandez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "ana.fernandez123@example.com",
+  "telefono": 3522718,
+  "codigoPostal": 1334,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c2"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034712,
+  "nombre": "Felipe Martinez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "felipe.martinez124@example.com",
+  "telefono": 3522719,
+  "codigoPostal": 1335,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034713,
+  "nombre": "Lucia Torres",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "lucia.torres125@example.com",
+  "telefono": 3522720,
+  "codigoPostal": 1336,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c4"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034714,
+  "nombre": "Emilio Lopez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "emilio.lopez126@example.com",
+  "telefono": 3522721,
+  "codigoPostal": 1337,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c5"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034715,
+  "nombre": "Victoria Sanchez",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "victoria.sanchez127@example.com",
+  "telefono": 3522722,
+  "codigoPostal": 1338,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70125bfa47a66f275c6"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034716,
+  "nombre": "Hector Diaz",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "hector.diaz128@example.com",
+  "telefono": 3522723,
+  "codigoPostal": 1339,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275c7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034717,
+  "nombre": "Elena Garcia",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "elena.garcia129@example.com",
+  "telefono": 3522724,
+  "codigoPostal": 1340,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275c8"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034718,
+  "nombre": "Manuel Fernandez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "manuel.fernandez130@example.com",
+  "telefono": 3522725,
+  "codigoPostal": 1341,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275c9"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034719,
+  "nombre": "Patricia Martinez",
+  "direccionFisica": "avenida 45#67",
+  "direccionDigital": "patricia.martinez131@example.com",
+  "telefono": 3522726,
+  "codigoPostal": 1342,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275ca"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034720,
+  "nombre": "Francisco Lopez",
+  "direccionFisica": "boulevard 89#10",
+  "direccionDigital": "francisco.lopez132@example.com",
+  "telefono": 3522727,
+  "codigoPostal": 1343,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275cb"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034721,
+  "nombre": "Mariana Torres",
+  "direccionFisica": "plaza 12#34",
+  "direccionDigital": "mariana.torres133@example.com",
+  "telefono": 3522728,
+  "codigoPostal": 1344,
+  "tipoUsuario": "ADMINISTRADOR",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275cc"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034722,
+  "nombre": "Rafael Sanchez",
+  "direccionFisica": "carrera 9#15",
+  "direccionDigital": "rafael.sanchez134@example.com",
+  "telefono": 3522729,
+  "codigoPostal": 1345,
+  "tipoUsuario": "CAJERO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70225bfa47a66f275cd"
+  },
+  "tipoDocumento": "REGISTRO CIVIL",
+  "numeroDocumento": 1010034723,
+  "nombre": "Gabriela Diaz",
+  "direccionFisica": "calle 50#60",
+  "direccionDigital": "gabriela.diaz135@example.com",
+  "telefono": 3522730,
+  "codigoPostal": 1346,
+  "tipoUsuario": "CLIENTE JURIDICO",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70325bfa47a66f275ce"
+  },
+  "tipoDocumento": "TI",
+  "numeroDocumento": 1010034724,
+  "nombre": "Josefina Rios",
+  "direccionFisica": "avenida 1#2",
+  "direccionDigital": "josefina.rios136@example.com",
+  "telefono": 3522731,
+  "codigoPostal": 1347,
+  "tipoUsuario": "CLIENTE NATURAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70325bfa47a66f275cf"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034725,
+  "nombre": "Eduardo Ramirez",
+  "direccionFisica": "carrera 11#12",
+  "direccionDigital": "eduardo.ramirez137@example.com",
+  "telefono": 3522732,
+  "codigoPostal": 1348,
+  "tipoUsuario": "GERENTE DE OFICINA",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650e70325bfa47a66f275d0"
+  },
+  "tipoDocumento": "CE",
+  "numeroDocumento": 1010034726,
+  "nombre": "Natalia Martinez",
+  "direccionFisica": "calle 22#34",
+  "direccionDigital": "natalia.martinez138@example.com",
+  "telefono": 3522733,
+  "codigoPostal": 1349,
+  "tipoUsuario": "GERENTE GENERAL",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ede9d6ae76093e15b985"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034621,
+  "nombre": "Andres Perez",
+  "direccionFisica": "calle 10#20",
+  "direccionDigital": "andres.perez1@example.com",
+  "telefono": 3522628,
+  "codigoPostal": 1244,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edead6ae76093e15b986"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034622,
+  "nombre": "Marcela Rodriguez",
+  "direccionFisica": "avenida 50#60",
+  "direccionDigital": "marcela.rodriguez2@example.com",
+  "telefono": 3522629,
+  "codigoPostal": 1245,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edebd6ae76093e15b987"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034623,
+  "nombre": "Julian Suarez",
+  "direccionFisica": "carrera 80#90",
+  "direccionDigital": "julian.suarez3@example.com",
+  "telefono": 3522630,
+  "codigoPostal": 1246,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "peruano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edebd6ae76093e15b988"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034624,
+  "nombre": "Paula Reyes",
+  "direccionFisica": "calle 1#2",
+  "direccionDigital": "paula.reyes4@example.com",
+  "telefono": 3522631,
+  "codigoPostal": 1247,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "argentino",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edebd6ae76093e15b989"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034625,
+  "nombre": "Estela Garcia",
+  "direccionFisica": "avenida 5#6",
+  "direccionDigital": "estela.garcia5@example.com",
+  "telefono": 3522632,
+  "codigoPostal": 1248,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "chileno",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edebd6ae76093e15b98a"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034626,
+  "nombre": "Tomas Lopez",
+  "direccionFisica": "carrera 15#25",
+  "direccionDigital": "tomas.lopez6@example.com",
+  "telefono": 3522633,
+  "codigoPostal": 1249,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "mexicano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edebd6ae76093e15b98b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034627,
+  "nombre": "Daniela Mejia",
+  "direccionFisica": "calle 7#8",
+  "direccionDigital": "daniela.mejia7@example.com",
+  "telefono": 3522634,
+  "codigoPostal": 1250,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edebd6ae76093e15b98c"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034628,
+  "nombre": "Pablo Castro",
+  "direccionFisica": "avenida 9#10",
+  "direccionDigital": "pablo.castro8@example.com",
+  "telefono": 3522635,
+  "codigoPostal": 1251,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edecd6ae76093e15b98d"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034629,
+  "nombre": "Cecilia Ortiz",
+  "direccionFisica": "carrera 20#30",
+  "direccionDigital": "cecilia.ortiz9@example.com",
+  "telefono": 3522636,
+  "codigoPostal": 1252,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edecd6ae76093e15b98e"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034630,
+  "nombre": "Roberto Rojas",
+  "direccionFisica": "calle 11#22",
+  "direccionDigital": "roberto.rojas10@example.com",
+  "telefono": 3522637,
+  "codigoPostal": 1253,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edecd6ae76093e15b98f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034631,
+  "nombre": "Gloria Paredes",
+  "direccionFisica": "avenida 13#14",
+  "direccionDigital": "gloria.paredes11@example.com",
+  "telefono": 3522638,
+  "codigoPostal": 1254,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edecd6ae76093e15b990"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034632,
+  "nombre": "Martin Romero",
+  "direccionFisica": "carrera 40#50",
+  "direccionDigital": "martin.romero12@example.com",
+  "telefono": 3522639,
+  "codigoPostal": 1255,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edecd6ae76093e15b991"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034633,
+  "nombre": "Susana Vargas",
+  "direccionFisica": "calle 15#16",
+  "direccionDigital": "susana.vargas13@example.com",
+  "telefono": 3522640,
+  "codigoPostal": 1256,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edecd6ae76093e15b992"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034634,
+  "nombre": "Felipe Herrera",
+  "direccionFisica": "avenida 17#18",
+  "direccionDigital": "felipe.herrera14@example.com",
+  "telefono": 3522641,
+  "codigoPostal": 1257,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b993"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034635,
+  "nombre": "Lina Guzman",
+  "direccionFisica": "carrera 70#80",
+  "direccionDigital": "lina.guzman15@example.com",
+  "telefono": 3522642,
+  "codigoPostal": 1258,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b994"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034636,
+  "nombre": "Javier Mendoza",
+  "direccionFisica": "calle 19#20",
+  "direccionDigital": "javier.mendoza16@example.com",
+  "telefono": 3522643,
+  "codigoPostal": 1259,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b995"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034637,
+  "nombre": "Sandra Leon",
+  "direccionFisica": "avenida 21#22",
+  "direccionDigital": "sandra.leon17@example.com",
+  "telefono": 3522644,
+  "codigoPostal": 1260,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b996"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034638,
+  "nombre": "Hugo Rivera",
+  "direccionFisica": "carrera 90#100",
+  "direccionDigital": "hugo.rivera18@example.com",
+  "telefono": 3522645,
+  "codigoPostal": 1261,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b997"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034639,
+  "nombre": "Carla Espinosa",
+  "direccionFisica": "calle 23#24",
+  "direccionDigital": "carla.espinosa19@example.com",
+  "telefono": 3522646,
+  "codigoPostal": 1262,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b998"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034640,
+  "nombre": "Marcos Soto",
+  "direccionFisica": "avenida 25#26",
+  "direccionDigital": "marcos.soto20@example.com",
+  "telefono": 3522647,
+  "codigoPostal": 1263,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650ededd6ae76093e15b999"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034641,
+  "nombre": "Elsa Castillo",
+  "direccionFisica": "carrera 110#120",
+  "direccionDigital": "elsa.castillo21@example.com",
+  "telefono": 3522648,
+  "codigoPostal": 1264,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edeed6ae76093e15b99a"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034642,
+  "nombre": "Raul Varela",
+  "direccionFisica": "calle 27#28",
+  "direccionDigital": "raul.varela22@example.com",
+  "telefono": 3522649,
+  "codigoPostal": 1265,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edeed6ae76093e15b99b"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034643,
+  "nombre": "Liliana Figueroa",
+  "direccionFisica": "avenida 29#30",
+  "direccionDigital": "liliana.figueroa23@example.com",
+  "telefono": 3522650,
+  "codigoPostal": 1266,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edeed6ae76093e15b99c"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034644,
+  "nombre": "Oscar Jimenez",
+  "direccionFisica": "carrera 130#140",
+  "direccionDigital": "oscar.jimenez24@example.com",
+  "telefono": 3522651,
+  "codigoPostal": 1267,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edeed6ae76093e15b99d"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034645,
+  "nombre": "Veronica Serrano",
+  "direccionFisica": "calle 31#32",
+  "direccionDigital": "veronica.serrano25@example.com",
+  "telefono": 3522652,
+  "codigoPostal": 1268,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edeed6ae76093e15b99e"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034646,
+  "nombre": "Rodrigo Delgado",
+  "direccionFisica": "avenida 33#34",
+  "direccionDigital": "rodrigo.delgado26@example.com",
+  "telefono": 3522653,
+  "codigoPostal": 1269,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edeed6ae76093e15b99f"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034647,
+  "nombre": "Andrea Cardenas",
+  "direccionFisica": "carrera 150#160",
+  "direccionDigital": "andrea.cardenas27@example.com",
+  "telefono": 3522654,
+  "codigoPostal": 1270,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a0"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034648,
+  "nombre": "Sebastian Padilla",
+  "direccionFisica": "calle 35#36",
+  "direccionDigital": "sebastian.padilla28@example.com",
+  "telefono": 3522655,
+  "codigoPostal": 1271,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a1"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034649,
+  "nombre": "Adriana Peña",
+  "direccionFisica": "avenida 37#38",
+  "direccionDigital": "adriana.pena29@example.com",
+  "telefono": 3522656,
+  "codigoPostal": 1272,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a2"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034650,
+  "nombre": "Victor Morales",
+  "direccionFisica": "carrera 170#180",
+  "direccionDigital": "victor.morales30@example.com",
+  "telefono": 3522657,
+  "codigoPostal": 1273,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034651,
+  "nombre": "Luciana Parra",
+  "direccionFisica": "calle 39#40",
+  "direccionDigital": "luciana.parra31@example.com",
+  "telefono": 3522658,
+  "codigoPostal": 1274,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a4"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034652,
+  "nombre": "Mauricio Ortiz",
+  "direccionFisica": "avenida 41#42",
+  "direccionDigital": "mauricio.ortiz32@example.com",
+  "telefono": 3522659,
+  "codigoPostal": 1275,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a5"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034653,
+  "nombre": "Julieta Valencia",
+  "direccionFisica": "carrera 190#200",
+  "direccionDigital": "julieta.valencia33@example.com",
+  "telefono": 3522660,
+  "codigoPostal": 1276,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edefd6ae76093e15b9a6"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034654,
+  "nombre": "Renato Pino",
+  "direccionFisica": "calle 43#44",
+  "direccionDigital": "renato.pino34@example.com",
+  "telefono": 3522661,
+  "codigoPostal": 1277,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf0d6ae76093e15b9a7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034655,
+  "nombre": "Nadia Campos",
+  "direccionFisica": "avenida 45#46",
+  "direccionDigital": "nadia.campos35@example.com",
+  "telefono": 3522662,
+  "codigoPostal": 1278,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf0d6ae76093e15b9a8"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034656,
+  "nombre": "Ricardo Dominguez",
+  "direccionFisica": "carrera 210#220",
+  "direccionDigital": "ricardo.dominguez36@example.com",
+  "telefono": 3522663,
+  "codigoPostal": 1279,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf0d6ae76093e15b9a9"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034657,
+  "nombre": "Patricia Andrade",
+  "direccionFisica": "calle 47#48",
+  "direccionDigital": "patricia.andrade37@example.com",
+  "telefono": 3522664,
+  "codigoPostal": 1280,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf0d6ae76093e15b9aa"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034658,
+  "nombre": "Enrique Navarro",
+  "direccionFisica": "avenida 49#50",
+  "direccionDigital": "enrique.navarro38@example.com",
+  "telefono": 3522665,
+  "codigoPostal": 1281,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf0d6ae76093e15b9ab"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034659,
+  "nombre": "Ximena Muñoz",
+  "direccionFisica": "carrera 230#240",
+  "direccionDigital": "ximena.munoz39@example.com",
+  "telefono": 3522666,
+  "codigoPostal": 1282,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9ac"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034660,
+  "nombre": "Emiliano Marquez",
+  "direccionFisica": "calle 51#52",
+  "direccionDigital": "emiliano.marquez40@example.com",
+  "telefono": 3522667,
+  "codigoPostal": 1283,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9ad"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034661,
+  "nombre": "Roxana Fernandez",
+  "direccionFisica": "avenida 53#54",
+  "direccionDigital": "roxana.fernandez41@example.com",
+  "telefono": 3522668,
+  "codigoPostal": 1284,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9ae"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034662,
+  "nombre": "Jorge Vallejo",
+  "direccionFisica": "carrera 250#260",
+  "direccionDigital": "jorge.vallejo42@example.com",
+  "telefono": 3522669,
+  "codigoPostal": 1285,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9af"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034663,
+  "nombre": "Natalia Sandoval",
+  "direccionFisica": "calle 55#56",
+  "direccionDigital": "natalia.sandoval43@example.com",
+  "telefono": 3522670,
+  "codigoPostal": 1286,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9b0"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034664,
+  "nombre": "Manuel Guzman",
+  "direccionFisica": "avenida 57#58",
+  "direccionDigital": "manuel.guzman44@example.com",
+  "telefono": 3522671,
+  "codigoPostal": 1287,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9b1"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034665,
+  "nombre": "Gabriela Ponce",
+  "direccionFisica": "carrera 270#280",
+  "direccionDigital": "gabriela.ponce45@example.com",
+  "telefono": 3522672,
+  "codigoPostal": 1288,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf1d6ae76093e15b9b2"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034666,
+  "nombre": "Diego Montoya",
+  "direccionFisica": "calle 59#60",
+  "direccionDigital": "diego.montoya46@example.com",
+  "telefono": 3522673,
+  "codigoPostal": 1289,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf2d6ae76093e15b9b3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034667,
+  "nombre": "Valeria Rios",
+  "direccionFisica": "avenida 61#62",
+  "direccionDigital": "valeria.rios47@example.com",
+  "telefono": 3522674,
+  "codigoPostal": 1290,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf2d6ae76093e15b9b4"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034668,
+  "nombre": "Eduardo Maldonado",
+  "direccionFisica": "carrera 290#300",
+  "direccionDigital": "eduardo.maldonado48@example.com",
+  "telefono": 3522675,
+  "codigoPostal": 1291,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf2d6ae76093e15b9b5"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034669,
+  "nombre": "Teresa Delgado",
+  "direccionFisica": "calle 63#64",
+  "direccionDigital": "teresa.delgado49@example.com",
+  "telefono": 3522676,
+  "codigoPostal": 1292,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf2d6ae76093e15b9b6"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034670,
+  "nombre": "Gustavo Reyes",
+  "direccionFisica": "avenida 65#66",
+  "direccionDigital": "gustavo.reyes50@example.com",
+  "telefono": 3522677,
+  "codigoPostal": 1293,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf3d6ae76093e15b9b7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034671,
+  "nombre": "Camila Romero",
+  "direccionFisica": "carrera 310#320",
+  "direccionDigital": "camila.romero51@example.com",
+  "telefono": 3522678,
+  "codigoPostal": 1294,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf3d6ae76093e15b9b8"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034672,
+  "nombre": "Oscar Ramirez",
+  "direccionFisica": "calle 67#68",
+  "direccionDigital": "oscar.ramirez52@example.com",
+  "telefono": 3522679,
+  "codigoPostal": 1295,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf3d6ae76093e15b9b9"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034673,
+  "nombre": "Sofia Castillo",
+  "direccionFisica": "avenida 69#70",
+  "direccionDigital": "sofia.castillo53@example.com",
+  "telefono": 3522680,
+  "codigoPostal": 1296,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf3d6ae76093e15b9ba"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034674,
+  "nombre": "Raquel Vargas",
+  "direccionFisica": "carrera 330#340",
+  "direccionDigital": "raquel.vargas54@example.com",
+  "telefono": 3522681,
+  "codigoPostal": 1297,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf4d6ae76093e15b9bb"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034675,
+  "nombre": "Hernan Cruz",
+  "direccionFisica": "calle 71#72",
+  "direccionDigital": "hernan.cruz55@example.com",
+  "telefono": 3522682,
+  "codigoPostal": 1298,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf4d6ae76093e15b9bc"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034676,
+  "nombre": "Olga Farias",
+  "direccionFisica": "avenida 73#74",
+  "direccionDigital": "olga.farias56@example.com",
+  "telefono": 3522683,
+  "codigoPostal": 1299,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf4d6ae76093e15b9bd"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034677,
+  "nombre": "Mario Silva",
+  "direccionFisica": "carrera 350#360",
+  "direccionDigital": "mario.silva57@example.com",
+  "telefono": 3522684,
+  "codigoPostal": 1300,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf4d6ae76093e15b9be"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034678,
+  "nombre": "Elena Ochoa",
+  "direccionFisica": "calle 75#76",
+  "direccionDigital": "elena.ochoa58@example.com",
+  "telefono": 3522685,
+  "codigoPostal": 1301,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf4d6ae76093e15b9bf"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034679,
+  "nombre": "Rodrigo Flores",
+  "direccionFisica": "avenida 77#78",
+  "direccionDigital": "rodrigo.flores59@example.com",
+  "telefono": 3522686,
+  "codigoPostal": 1302,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf4d6ae76093e15b9c0"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034680,
+  "nombre": "Luz Mora",
+  "direccionFisica": "carrera 370#380",
+  "direccionDigital": "luz.mora60@example.com",
+  "telefono": 3522687,
+  "codigoPostal": 1303,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c1"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034681,
+  "nombre": "Cesar Medina",
+  "direccionFisica": "calle 79#80",
+  "direccionDigital": "cesar.medina61@example.com",
+  "telefono": 3522688,
+  "codigoPostal": 1304,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c2"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034682,
+  "nombre": "Daniela Reyes",
+  "direccionFisica": "avenida 81#82",
+  "direccionDigital": "daniela.reyes62@example.com",
+  "telefono": 3522689,
+  "codigoPostal": 1305,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034683,
+  "nombre": "Julio Serrano",
+  "direccionFisica": "carrera 390#400",
+  "direccionDigital": "julio.serrano63@example.com",
+  "telefono": 3522690,
+  "codigoPostal": 1306,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c4"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034684,
+  "nombre": "Mariela Santana",
+  "direccionFisica": "calle 83#84",
+  "direccionDigital": "mariela.santana64@example.com",
+  "telefono": 3522691,
+  "codigoPostal": 1307,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c5"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034685,
+  "nombre": "Ignacio Campos",
+  "direccionFisica": "avenida 85#86",
+  "direccionDigital": "ignacio.campos65@example.com",
+  "telefono": 3522692,
+  "codigoPostal": 1308,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c6"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034686,
+  "nombre": "Yolanda Navarro",
+  "direccionFisica": "carrera 410#420",
+  "direccionDigital": "yolanda.navarro66@example.com",
+  "telefono": 3522693,
+  "codigoPostal": 1309,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf5d6ae76093e15b9c7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034687,
+  "nombre": "Miguel Fuentes",
+  "direccionFisica": "calle 87#88",
+  "direccionDigital": "miguel.fuentes67@example.com",
+  "telefono": 3522694,
+  "codigoPostal": 1310,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf6d6ae76093e15b9c8"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034688,
+  "nombre": "Alejandra Rojas",
+  "direccionFisica": "avenida 89#90",
+  "direccionDigital": "alejandra.rojas68@example.com",
+  "telefono": 3522695,
+  "codigoPostal": 1311,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf6d6ae76093e15b9c9"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034689,
+  "nombre": "David Miranda",
+  "direccionFisica": "carrera 430#440",
+  "direccionDigital": "david.miranda69@example.com",
+  "telefono": 3522696,
+  "codigoPostal": 1312,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf6d6ae76093e15b9ca"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034690,
+  "nombre": "Monica Acosta",
+  "direccionFisica": "calle 91#92",
+  "direccionDigital": "monica.acosta70@example.com",
+  "telefono": 3522697,
+  "codigoPostal": 1313,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf6d6ae76093e15b9cb"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034691,
+  "nombre": "Lucas Benitez",
+  "direccionFisica": "avenida 93#94",
+  "direccionDigital": "lucas.benitez71@example.com",
+  "telefono": 3522698,
+  "codigoPostal": 1314,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf6d6ae76093e15b9cc"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034692,
+  "nombre": "Susana Pacheco",
+  "direccionFisica": "carrera 450#460",
+  "direccionDigital": "susana.pacheco72@example.com",
+  "telefono": 3522699,
+  "codigoPostal": 1315,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf6d6ae76093e15b9cd"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034693,
+  "nombre": "Gonzalo Aguirre",
+  "direccionFisica": "calle 95#96",
+  "direccionDigital": "gonzalo.aguirre73@example.com",
+  "telefono": 3522700,
+  "codigoPostal": 1316,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9ce"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034694,
+  "nombre": "Lorena Gil",
+  "direccionFisica": "avenida 97#98",
+  "direccionDigital": "lorena.gil74@example.com",
+  "telefono": 3522701,
+  "codigoPostal": 1317,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9cf"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034695,
+  "nombre": "Raul Campos",
+  "direccionFisica": "carrera 470#480",
+  "direccionDigital": "raul.campos75@example.com",
+  "telefono": 3522702,
+  "codigoPostal": 1318,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9d0"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034696,
+  "nombre": "Marta Guerrero",
+  "direccionFisica": "calle 99#100",
+  "direccionDigital": "marta.guerrero76@example.com",
+  "telefono": 3522703,
+  "codigoPostal": 1319,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9d1"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034697,
+  "nombre": "Esteban Meza",
+  "direccionFisica": "avenida 101#102",
+  "direccionDigital": "esteban.meza77@example.com",
+  "telefono": 3522704,
+  "codigoPostal": 1320,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9d2"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034698,
+  "nombre": "Patricia Suarez",
+  "direccionFisica": "carrera 490#500",
+  "direccionDigital": "patricia.suarez78@example.com",
+  "telefono": 3522705,
+  "codigoPostal": 1321,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9d3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034699,
+  "nombre": "Hector Rivas",
+  "direccionFisica": "calle 103#104",
+  "direccionDigital": "hector.rivas79@example.com",
+  "telefono": 3522706,
+  "codigoPostal": 1322,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf7d6ae76093e15b9d4"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034700,
+  "nombre": "Gloria Vargas",
+  "direccionFisica": "avenida 105#106",
+  "direccionDigital": "gloria.vargas80@example.com",
+  "telefono": 3522707,
+  "codigoPostal": 1323,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9d5"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034701,
+  "nombre": "Luis Ortega",
+  "direccionFisica": "carrera 510#520",
+  "direccionDigital": "luis.ortega81@example.com",
+  "telefono": 3522708,
+  "codigoPostal": 1324,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9d6"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034702,
+  "nombre": "Silvia Vega",
+  "direccionFisica": "calle 107#108",
+  "direccionDigital": "silvia.vega82@example.com",
+  "telefono": 3522709,
+  "codigoPostal": 1325,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9d7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034703,
+  "nombre": "Emilio Alvarado",
+  "direccionFisica": "avenida 109#110",
+  "direccionDigital": "emilio.alvarado83@example.com",
+  "telefono": 3522710,
+  "codigoPostal": 1326,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9d8"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034704,
+  "nombre": "Claudia Mendez",
+  "direccionFisica": "carrera 530#540",
+  "direccionDigital": "claudia.mendez84@example.com",
+  "telefono": 3522711,
+  "codigoPostal": 1327,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9d9"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034705,
+  "nombre": "Adrian Romero",
+  "direccionFisica": "calle 111#112",
+  "direccionDigital": "adrian.romero85@example.com",
+  "telefono": 3522712,
+  "codigoPostal": 1328,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9da"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034706,
+  "nombre": "Laura Rivera",
+  "direccionFisica": "avenida 113#114",
+  "direccionDigital": "laura.rivera86@example.com",
+  "telefono": 3522713,
+  "codigoPostal": 1329,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf8d6ae76093e15b9db"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034707,
+  "nombre": "Javier Medina",
+  "direccionFisica": "carrera 550#560",
+  "direccionDigital": "javier.medina87@example.com",
+  "telefono": 3522714,
+  "codigoPostal": 1330,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf9d6ae76093e15b9dc"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034708,
+  "nombre": "Ines Molina",
+  "direccionFisica": "calle 115#116",
+  "direccionDigital": "ines.molina88@example.com",
+  "telefono": 3522715,
+  "codigoPostal": 1331,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf9d6ae76093e15b9dd"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034709,
+  "nombre": "Gabriel Suarez",
+  "direccionFisica": "avenida 117#118",
+  "direccionDigital": "gabriel.suarez89@example.com",
+  "telefono": 3522716,
+  "codigoPostal": 1332,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf9d6ae76093e15b9de"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034710,
+  "nombre": "Diana Gutierrez",
+  "direccionFisica": "carrera 570#580",
+  "direccionDigital": "diana.gutierrez90@example.com",
+  "telefono": 3522717,
+  "codigoPostal": 1333,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf9d6ae76093e15b9df"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034711,
+  "nombre": "Carlos Perez",
+  "direccionFisica": "calle 119#120",
+  "direccionDigital": "carlos.perez91@example.com",
+  "telefono": 3522718,
+  "codigoPostal": 1334,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf9d6ae76093e15b9e0"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034712,
+  "nombre": "Veronica Jimenez",
+  "direccionFisica": "avenida 121#122",
+  "direccionDigital": "veronica.jimenez92@example.com",
+  "telefono": 3522719,
+  "codigoPostal": 1335,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edf9d6ae76093e15b9e1"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034713,
+  "nombre": "Jorge Guzman",
+  "direccionFisica": "carrera 590#600",
+  "direccionDigital": "jorge.guzman93@example.com",
+  "telefono": 3522720,
+  "codigoPostal": 1336,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfad6ae76093e15b9e2"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034714,
+  "nombre": "Paola Herrera",
+  "direccionFisica": "calle 123#124",
+  "direccionDigital": "paola.herrera94@example.com",
+  "telefono": 3522721,
+  "codigoPostal": 1337,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfad6ae76093e15b9e3"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034715,
+  "nombre": "Fernando Torres",
+  "direccionFisica": "avenida 125#126",
+  "direccionDigital": "fernando.torres95@example.com",
+  "telefono": 3522722,
+  "codigoPostal": 1338,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfad6ae76093e15b9e4"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034716,
+  "nombre": "Viviana Diaz",
+  "direccionFisica": "carrera 610#620",
+  "direccionDigital": "viviana.diaz96@example.com",
+  "telefono": 3522723,
+  "codigoPostal": 1339,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfad6ae76093e15b9e5"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034717,
+  "nombre": "Alejandro Reyes",
+  "direccionFisica": "calle 127#128",
+  "direccionDigital": "alejandro.reyes97@example.com",
+  "telefono": 3522724,
+  "codigoPostal": 1340,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfad6ae76093e15b9e6"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034718,
+  "nombre": "Lorena Ramirez",
+  "direccionFisica": "avenida 129#130",
+  "direccionDigital": "lorena.ramirez98@example.com",
+  "telefono": 3522725,
+  "codigoPostal": 1341,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfad6ae76093e15b9e7"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034719,
+  "nombre": "Hugo Gonzalez",
+  "direccionFisica": "carrera 630#640",
+  "direccionDigital": "hugo.gonzalez99@example.com",
+  "telefono": 3522726,
+  "codigoPostal": 1342,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+},
+{
+  "_id": {
+    "$oid": "6650edfbd6ae76093e15b9e8"
+  },
+  "tipoDocumento": "CC",
+  "numeroDocumento": 1010034720,
+  "nombre": "Ana Vargas",
+  "direccionFisica": "calle 131#132",
+  "direccionDigital": "ana.vargas100@example.com",
+  "telefono": 3522727,
+  "codigoPostal": 1343,
+  "tipoUsuario": "GERENTE",
+  "nacionalidad": "colombiano",
+  "_class": "com.example.prueba.modelo.Usuario"
+}]

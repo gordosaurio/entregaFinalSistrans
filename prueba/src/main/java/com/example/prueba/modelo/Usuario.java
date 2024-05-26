@@ -100,4 +100,12 @@ public class Usuario {
         return id.toHexString();
     }
 
+    @Override
+    public String toString() {
+        return "Usuario [id=" + id + ", tipoDocumento=" + tipoDocumento + ", numeroDocumento=" + numeroDocumento
+                + ", nombre=" + nombre + ", direccionFisica=" + direccionFisica + ", direccionDigital="
+                + direccionDigital + ", telefono=" + telefono + ", codigoPostal=" + codigoPostal + ", tipoUsuario="
+                + tipoUsuario + ", nacionalidad=" + nacionalidad + "]";
+    }
+    
 }
